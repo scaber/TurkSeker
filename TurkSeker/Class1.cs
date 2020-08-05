@@ -8,5 +8,9 @@ namespace TurkSeker
 {
     public class Class1
     {
+        public Class1()
+        {
+
+        }
     }
 }
