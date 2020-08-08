@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkSeker.Dal", "TurkSeker.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkSeker.Web", "TurkSeker.Web\TurkSeker.Web.csproj", "{E2BBE936-3B54-4211-895C-F08F7DA3CD68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkSeker.Dto", "TurkSeker.Dto\TurkSeker.Dto.csproj", "{DC930CFB-7142-4E3C-A5EB-B162C6523408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E2BBE936-3B54-4211-895C-F08F7DA3CD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2BBE936-3B54-4211-895C-F08F7DA3CD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2BBE936-3B54-4211-895C-F08F7DA3CD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC930CFB-7142-4E3C-A5EB-B162C6523408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC930CFB-7142-4E3C-A5EB-B162C6523408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC930CFB-7142-4E3C-A5EB-B162C6523408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC930CFB-7142-4E3C-A5EB-B162C6523408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -47,103 +47,106 @@
             $(document).ready(function () {
                 $("#grid").kendoGrid({
                     dataSource: {
-                        batch: true,
-                        //type: "odata-v4",
-                        //transport: {
-                        //    read: {
-                        //        url: "/odata/Kullanicis",
-                        //        dataType: "json"
-                                 
-                        //    }
-                        //},
-                        type: "odata",
+                       
+                        type: "odata-v4",
                         transport: {
-                            read: "https://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers"
+                            read: {
+                                url: "/api/genelmd",
+                                dataType: "json"
+                                 
+                            }
                         },
+                        //type: "odata",
+                        //transport: {
+                        //    read: "https://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers"
+                        //},
                         pageSize: 20
+                    },
+                    sortable: {
+                        mode: "multiple",
+                        allowUnsort: true,
+                        showIndexes: true
                     },
                     height: 550,
                     groupable: true,
                     sortable: true,
                     pageable: {
                         refresh: true,
-                        pageSizes: true,
+                        pageSizes: [20, 50,100, "all"],
                         buttonCount: 5
                     },
                     columns: [
                         {
-                            field: "ID",
-                            title: "id"
-                        }
-                        , {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }
-                        , {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }, {
-                            field: "CompanyName",
-                            title: "Company Name"
-                        }, {
-                            field: "Country",
-                            width: 150
-                        }
-
+                            field: "Id",
+                            title: "Id", locked: true,
+                            lockable: false, width: 250 
+                        },
+                        //{
+                        //    field: "fabrikaAdi",
+                        //    title: "Fabrika Adı",locked: true,
+                        //    lockable: false, width: 250 
+                        //},
+                        {
+                            field: "Raf_bek_sek",
+                            title: "Rafineriden Beklenen Şeker",
+                              width: 200 
+                        },
+                        {
+                            field: "Ham_bek_sek",
+                            title: "Ham Fabrikadan Beklenen Şeker", width: 250 
+                        },
+                        {
+                            field: "Top_bek_sek",
+                            title: "Toplam Beklenen Şeker", width: 250 
+                        },
+                        {
+                            field: "Bugun_cik_sek",
+                            title: "Çuvallama Kantarından Bugün Çıkan Şeker(kg)", width: 350 
+                        },
+                        {
+                            field: "Dun_cik_sek",
+                            title: "Çuvallama Kantarından Dün Çıkan Şeker(kg)", width: 350 
+                        },
+                        {
+                            field: "Kiyim1_anlik_ton",
+                            title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250 
+                        },
+                        {
+                            field: "Kiyim2_anlik_ton",
+                            title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250 
+                        },
+                        {
+                            field: "Kiyim3_anlik_ton",
+                            title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250 
+                        },
+                        {
+                            field: "Kiyim3_anlik_ton",
+                            title: "Toplam Bugün Kesilen Pancar", width: 250 
+                        },
+                        {
+                            field: "Kiyim3_anlik_ton",
+                            title: "Toplam Dün Kesilen Pancar", width: 250 
+                        },
+                        {
+                            field: "Kiyim_polu",
+                            title: "Kıyım Polü", width: 100 
+                        },
+                        {
+                            field: "ToplamPancar",
+                            title: "Toplam Pancar", width: 200 
+                        },
+                        {
+                            field: "BugunGelenPancar",
+                            title: "Bugün Gelen Pancar", width: 200 
+                        },
+                        {
+                            field: "KantardakiPancar",
+                            title: "Kantardaki Pancar", width: 200 
+                        },
+                        {
+                            field: "Kayit_tar_saat",
+                            title: "Tarih", width: 200 
+                        } 
                     ]
                 });
             });
@@ -203,6 +206,10 @@
             vertical-align: middle;
             line-height: 32px;
             padding-left: 3px;
+        }
+
+        .k-grid-header .k-header {
+            background-color: #47D147;
         }
     </style>
     @*<div class="container">

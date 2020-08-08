@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNet.OData;
 using System.Data;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
-using System.Web.Http.ModelBinding;
-using System.Web.Http.OData;
-using System.Web.Http.OData.Routing;
 using TurkSeker.Dal;
 using TurkSeker.Dal.Db;
 
@@ -32,7 +24,7 @@ namespace TurkSeker.Web.Controllers.Api
         // GET: odata/Kullanicis
         [EnableQuery]
         [HttpGet]
-        public IQueryable<Kullanici> GetKullanicis()
+        public IQueryable<Kullanici> Get()
         {
             var veri = db.Kullanici;
             return veri;
@@ -45,109 +37,109 @@ namespace TurkSeker.Web.Controllers.Api
             return SingleResult.Create(db.Kullanici.Where(kullanici => kullanici.ID == key));
         }
 
-        // PUT: odata/Kullanicis(5)
-        public IHttpActionResult Put([FromODataUri] int key, Delta<Kullanici> patch)
-        {
-            Validate(patch.GetEntity());
+        //// PUT: odata/Kullanicis(5)
+        //public IHttpActionResult Put([FromODataUri] int key, Delta<Kullanici> patch)
+        //{
+        //    Validate(patch.GetEntity());
 
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            Kullanici kullanici = db.Kullanici.Find(key);
-            if (kullanici == null)
-            {
-                return NotFound();
-            }
+        //    Kullanici kullanici = db.Kullanici.Find(key);
+        //    if (kullanici == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            patch.Put(kullanici);
+        //    patch.Put(kullanici);
 
-            try
-            {
-                db.SaveChanges();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!KullaniciExists(key))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        //    try
+        //    {
+        //        db.SaveChanges();
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        if (!KullaniciExists(key))
+        //        {
+        //            return NotFound();
+        //        }
+        //        else
+        //        {
+        //            throw;
+        //        }
+        //    }
 
-            return Updated(kullanici);
-        }
+        //    return Updated(kullanici);
+        //}
 
-        // POST: odata/Kullanicis
-        public IHttpActionResult Post(Kullanici kullanici)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //// POST: odata/Kullanicis
+        //public IHttpActionResult Post(Kullanici kullanici)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            db.Kullanici.Add(kullanici);
-            db.SaveChanges();
+        //    db.Kullanici.Add(kullanici);
+        //    db.SaveChanges();
 
-            return Created(kullanici);
-        }
+        //    return Created(kullanici);
+        //}
 
-        // PATCH: odata/Kullanicis(5)
-        [AcceptVerbs("PATCH", "MERGE")]
-        public IHttpActionResult Patch([FromODataUri] int key, Delta<Kullanici> patch)
-        {
-            Validate(patch.GetEntity());
+        //// PATCH: odata/Kullanicis(5)
+        //[AcceptVerbs("PATCH", "MERGE")]
+        //public IHttpActionResult Patch([FromODataUri] int key, Delta<Kullanici> patch)
+        //{
+        //    Validate(patch.GetEntity());
 
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            Kullanici kullanici = db.Kullanici.Find(key);
-            if (kullanici == null)
-            {
-                return NotFound();
-            }
+        //    Kullanici kullanici = db.Kullanici.Find(key);
+        //    if (kullanici == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            patch.Patch(kullanici);
+        //    patch.Patch(kullanici);
 
-            try
-            {
-                db.SaveChanges();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!KullaniciExists(key))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        //    try
+        //    {
+        //        db.SaveChanges();
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        if (!KullaniciExists(key))
+        //        {
+        //            return NotFound();
+        //        }
+        //        else
+        //        {
+        //            throw;
+        //        }
+        //    }
 
-            return Updated(kullanici);
-        }
+        //    return Updated(kullanici);
+        //}
 
-        // DELETE: odata/Kullanicis(5)
-        public IHttpActionResult Delete([FromODataUri] int key)
-        {
-            Kullanici kullanici = db.Kullanici.Find(key);
-            if (kullanici == null)
-            {
-                return NotFound();
-            }
+        //// DELETE: odata/Kullanicis(5)
+        //public IHttpActionResult Delete([FromODataUri] int key)
+        //{
+        //    Kullanici kullanici = db.Kullanici.Find(key);
+        //    if (kullanici == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            db.Kullanici.Remove(kullanici);
-            db.SaveChanges();
+        //    db.Kullanici.Remove(kullanici);
+        //    db.SaveChanges();
 
-            return StatusCode(HttpStatusCode.NoContent);
-        }
+        //    return StatusCode(HttpStatusCode.NoContent);
+        //}
 
         protected override void Dispose(bool disposing)
         {
