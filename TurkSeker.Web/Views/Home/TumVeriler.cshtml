@@ -1,0 +1,186 @@
+﻿@{
+    ViewBag.Title = "Tüm Veriler";
+}
+
+
+
+<link href="~/Content/kendo/css/kendo.default-v2.min.css" rel="stylesheet" />
+<script src="~/Content/kendo/js/jquery.min.js"></script>
+<script src="~/Content/kendo/js/kendo.all.min.js"></script>
+<script src="~/Content/kendo/js/Turkce.min.js"></script>
+
+<div id="example">
+    <div id="grid"></div>
+    <script>
+        $(document).ready(function () {
+            $("#grid").kendoGrid({
+                dataSource: {
+
+                    type: "odata-v4",
+                    transport: {
+                        read: {
+                            url: "/api/genelmd",
+                            dataType: "json"
+                        }
+                    },
+                    schema: {
+                        model: {
+                            fields: {
+                                Id: { type: "number" },
+                                FabrikaAdi: { type: "string" },
+                                Kayit_tar_saat: { type: "date" },
+                                Raf_bek_sek: { type: "number" },
+                                Top_bek_sek: { type: "number" },
+                                Bugun_cik_sek: { type: "number" },
+                                Dun_cik_sek: { type: "number" },
+                                Kiyim1_anlik_ton: { type: "number" },
+                                Kiyim2_anlik_ton: { type: "number" },
+                                Kiyim3_anlik_ton: { type: "number" },
+                                Bugun_kes_pan: { type: "number" },
+                                Dun_kes_pan: { type: "number" },
+                                Kiyim_polu: { type: "number" },
+                                ToplamPancar: { type: "number" },
+                                BugunGelenPancar: { type: "number" },
+                                KantardakiPancar: { type: "number" },
+
+                            }
+                        }
+                    },
+                    pageSize: 20,
+                    serverPaging: true,
+                    serverFiltering: true,
+                },
+                sortable: {
+                    mode: "multiple",
+                    allowUnsort: true,
+                    showIndexes: true
+                },
+                filterable: {
+                    mode: "row"
+                },
+                height: 600,
+                groupable: true,
+                sortable: true,
+                pageable: {
+                    refresh: true,
+                    pageSizes: [20, 50, 100, 1000, 50000],
+                    buttonCount: 5
+                },
+                columns: [
+                    {
+                        field: "Id",
+                        title: "Id", width: 250
+                    },
+                    {
+                        field: "FabrikaAdi",
+                        title: "Fabrika Adı", locked: true,
+                        lockable: false, width: 250
+                    }
+                    ,
+                    {
+                        field: "Kayit_tar_saat",
+                        title: "Tarih", width: 340,
+                        template: "#= kendo.toString(kendo.parseDate(Kayit_tar_saat, 'dd/MM/yyyy HH:mm'), 'dd/MM/yyyy HH:mm') #",
+                        filterable: {
+                            cell: { template: betweenFilter }
+
+                        }
+                    },
+                    {
+                        field: "Raf_bek_sek",
+                        title: "Rafineriden Beklenen Şeker",
+                        width: 200
+                    },
+                    {
+                        field: "Ham_bek_sek",
+                        title: "Ham Fabrikadan Beklenen Şeker", width: 250
+                    },
+                    {
+                        field: "Top_bek_sek",
+                        title: "Toplam Beklenen Şeker", width: 250
+                    },
+                    {
+                        field: "Bugun_cik_sek",
+                        title: "Çuvallama Kantarından Bugün Çıkan Şeker(kg)", width: 350
+                    },
+                    {
+                        field: "Dun_cik_sek",
+                        title: "Çuvallama Kantarından Dün Çıkan Şeker(kg)", width: 350
+                    },
+                    {
+                        field: "Kiyim1_anlik_ton",
+                        title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250
+                    },
+                    {
+                        field: "Kiyim2_anlik_ton",
+                        title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250
+                    },
+                    {
+                        field: "Kiyim3_anlik_ton",
+                        title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250
+                    },
+                    {
+                        field: "Bugun_kes_pan",
+                        title: "Toplam Bugün Kesilen Pancar", width: 250
+                    },
+                    {
+                        field: "Dun_kes_pan",
+                        title: "Toplam Dün Kesilen Pancar", width: 250
+                    },
+                    {
+                        field: "Kiyim_polu",
+                        title: "Kıyım Polü", width: 100
+                    },
+                    {
+                        field: "ToplamPancar",
+                        title: "Toplam Pancar", width: 200
+                    },
+                    {
+                        field: "BugunGelenPancar",
+                        title: "Bugün Gelen Pancar", width: 200
+                    },
+                    {
+                        field: "KantardakiPancar",
+                        title: "Kantardaki Pancar", width: 200
+                    }
+                ]
+            });
+        });
+        function betweenFilter(args) {
+            var filterCell = args.element.parents(".k-filtercell");
+
+            filterCell.empty();
+            filterCell.html('<span style="display:flex; justify-content:center;"><span>İlk Tarih:</span><input  class="start-date"/><span>Son Tarih:</span><input  class="end-date"/></span>');
+
+            $(".start-date", filterCell).kendoDatePicker({
+                change: function (e) {
+                    var startDate = e.sender.value(),
+                        endDate = $("input.end-date", filterCell).data("kendoDatePicker").value(),
+                        dataSource = $("#grid").data("kendoGrid").dataSource;
+
+                    if (startDate & endDate) {
+                        var filter = { logic: "and", filters: [] };
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "gte", value: startDate });
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "lte", value: endDate });
+                        dataSource.filter(filter);
+                    }
+                }
+            });
+            $(".end-date", filterCell).kendoDatePicker({
+                change: function (e) {
+                    var startDate = $("input.start-date", filterCell).data("kendoDatePicker").value(),
+                        endDate = e.sender.value(),
+                        dataSource = $("#grid").data("kendoGrid").dataSource;
+
+                    if (startDate & endDate) {
+                        var filter = { logic: "and", filters: [] };
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "gte", value: startDate });
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "lte", value: endDate });
+                        dataSource.filter(filter);
+                    }
+                }
+            });
+
+        }
+    </script>
+</div> 

@@ -1,373 +1,190 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Tüm Veriler";
 }
-<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.default-v2.min.css" />
+@*<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.default-v2.min.css" />
 
 <script src="https://kendo.cdn.telerik.com/2020.2.617/js/jquery.min.js"></script>
 
-
-<script src="https://kendo.cdn.telerik.com/2020.2.617/js/kendo.all.min.js"></script>
-<div class="main">
-    <div class="container">
-        <div class="row">
-
-            <div class="mr-auto p-4 " style="margin-left:50px;">
+<script src="https://kendo.cdn.telerik.com/2020.2.617/js/kendo.all.min.js"></script>*@
 
 
-                @using (Html.BeginForm("Tablo", "Tablo", FormMethod.Post))
-                {
+<link href="~/Content/kendo/css/kendo.default-v2.min.css" rel="stylesheet" />
+<script src="~/Content/kendo/js/jquery.min.js"></script> 
+<script src="~/Content/kendo/js/kendo.all.min.js"></script>
+<script src="~/Content/kendo/js/Turkce.min.js"></script>
 
+<div id="example">
+    <div id="grid"></div>
+    <script>
+        $(document).ready(function () {
+            $("#grid").kendoGrid({
+                dataSource: {
 
-                    <label style="width:75px;"> İlk Tarih:</label>
+                    type: "odata-v4",
+                    transport: {
+                        read: {
+                            url: "/api/genelmd",
+                            dataType: "json"
+                        }
+                    },
+                    schema: {
+                        model: {
+                            fields: {
+                                Id: { type: "number" },
+                                FabrikaAdi: { type: "string" },
+                                Kayit_tar_saat: { type: "date" },
+                                Raf_bek_sek: { type: "number" },
+                                Top_bek_sek: { type: "number" },
+                                Bugun_cik_sek: { type: "number" },
+                                Dun_cik_sek: { type: "number" },
+                                Kiyim1_anlik_ton: { type: "number" },
+                                Kiyim2_anlik_ton: { type: "number" },
+                                Kiyim3_anlik_ton: { type: "number" },
+                                Bugun_kes_pan: { type: "number" },
+                                Dun_kes_pan: { type: "number" },
+                                Kiyim_polu: { type: "number" },
+                                ToplamPancar: { type: "number" },
+                                BugunGelenPancar: { type: "number" },
+                                KantardakiPancar: { type: "number" },
 
-                    <input id="IlkTarih" type="datetime" name="IlkTarih" value="Ilk Tarihi Giriniz">
-                    <br />
-                    <label style="width:75px;"> Son Tarih:</label>
-                    <input id="SonTarih" type="datetime" name="SonTarih" value="Son tarihi Giriniz">
-                    <br />
-                    <select name="FabrikaAdi" id="FabrikaAdi" style="height:38px;">
-                        @*<option>Ankara</option>*@
-                        <option>Burdur</option>
-                        <option>Ereğli</option>
-                        <option>Malatya</option>
-                        <option>Susurluk</option>
-                        <option>Yozgat</option>
-
-                    </select>
-                    <button class="btn btn-primary" type="submit" id="buton">Sorgula</button>
-
-
-                }
-            </div>
-        </div>
-    </div>
-    <div id="example">
-        <div id="grid"></div>
-        <script>
-            $(document).ready(function () {
-                $("#grid").kendoGrid({
-                    dataSource: {
-                       
-                        type: "odata-v4",
-                        transport: {
-                            read: {
-                                url: "/api/genelmd",
-                                dataType: "json"
-                                 
                             }
-                        },
-                        //type: "odata",
-                        //transport: {
-                        //    read: "https://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers"
-                        //},
-                        pageSize: 20
+                        }
                     },
-                    sortable: {
-                        mode: "multiple",
-                        allowUnsort: true,
-                        showIndexes: true
-                    },
-                    height: 550,
-                    groupable: true,
-                    sortable: true,
-                    pageable: {
-                        refresh: true,
-                        pageSizes: [20, 50,100, "all"],
-                        buttonCount: 5
-                    },
-                    columns: [
-                        {
-                            field: "Id",
-                            title: "Id", locked: true,
-                            lockable: false, width: 250 
-                        },
-                        //{
-                        //    field: "fabrikaAdi",
-                        //    title: "Fabrika Adı",locked: true,
-                        //    lockable: false, width: 250 
-                        //},
-                        {
-                            field: "Raf_bek_sek",
-                            title: "Rafineriden Beklenen Şeker",
-                              width: 200 
-                        },
-                        {
-                            field: "Ham_bek_sek",
-                            title: "Ham Fabrikadan Beklenen Şeker", width: 250 
-                        },
-                        {
-                            field: "Top_bek_sek",
-                            title: "Toplam Beklenen Şeker", width: 250 
-                        },
-                        {
-                            field: "Bugun_cik_sek",
-                            title: "Çuvallama Kantarından Bugün Çıkan Şeker(kg)", width: 350 
-                        },
-                        {
-                            field: "Dun_cik_sek",
-                            title: "Çuvallama Kantarından Dün Çıkan Şeker(kg)", width: 350 
-                        },
-                        {
-                            field: "Kiyim1_anlik_ton",
-                            title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250 
-                        },
-                        {
-                            field: "Kiyim2_anlik_ton",
-                            title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250 
-                        },
-                        {
-                            field: "Kiyim3_anlik_ton",
-                            title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250 
-                        },
-                        {
-                            field: "Kiyim3_anlik_ton",
-                            title: "Toplam Bugün Kesilen Pancar", width: 250 
-                        },
-                        {
-                            field: "Kiyim3_anlik_ton",
-                            title: "Toplam Dün Kesilen Pancar", width: 250 
-                        },
-                        {
-                            field: "Kiyim_polu",
-                            title: "Kıyım Polü", width: 100 
-                        },
-                        {
-                            field: "ToplamPancar",
-                            title: "Toplam Pancar", width: 200 
-                        },
-                        {
-                            field: "BugunGelenPancar",
-                            title: "Bugün Gelen Pancar", width: 200 
-                        },
-                        {
-                            field: "KantardakiPancar",
-                            title: "Kantardaki Pancar", width: 200 
-                        },
-                        {
-                            field: "Kayit_tar_saat",
-                            title: "Tarih", width: 200 
-                        } 
-                    ]
-                });
-            });
-        </script>
-    </div>
-
-
-    @*<script src="~/Scripts/jquery.js"></script>
-        <script src="~/Scripts/jquery.datetimepicker.full.min.js"></script>*@
-
-
-    @*<script>
-            $.datetimepicker.setLocale('tr');
-            $("#SonTarih").datetimepicker({
-
-                dateFormat: "mm-dd-yy",
-                onShow: function (ct) {
-                    this.setOptions({
-                        maxDate: jQuery('#IlkTarih').val() ? jQuery('#IlkTarih').val() : false
-                    })
+                    pageSize: 20,
+                    serverPaging: true,
+                    serverFiltering: true,
                 },
-
-            });
-
-            $("#IlkTarih").datetimepicker({
-
-                dateFormat: "mm-dd-yy",
-                onShow: function (ct) {
-                    this.setOptions({
-                        maxDate: jQuery('#SonTarih').val() ? jQuery('#SonTarih').val() : false
-                    })
+                sortable: {
+                    mode: "multiple",
+                    allowUnsort: true,
+                    showIndexes: true
                 },
+                
+                height: 600,
+                groupable: true,
+                sortable: true,
+                pageable: {
+                    refresh: true,
+                    pageSizes: [20, 50, 100, 1000, 50000],
+                    buttonCount: 5
+                },
+                columns: [
+                    {
+                        field: "Id",
+                        title: "Id", width: 250
+                    },
+                    {
+                        field: "FabrikaAdi",
+                        title: "Fabrika Adı", locked: true,
+                        lockable: false, width: 250
+                    }
+                    ,
+                    {
+                        field: "Kayit_tar_saat",
+                        title: "Tarih", width: 340,
+                        template: "#= kendo.toString(kendo.parseDate(Kayit_tar_saat, 'dd/MM/yyyy HH:mm'), 'dd/MM/yyyy HH:mm') #",
+                        filterable: {
+                            cell: { template: betweenFilter }
 
+                        }
+                    },
+                    {
+                        field: "Raf_bek_sek",
+                        title: "Rafineriden Beklenen Şeker",
+                        width: 200
+                    },
+                    {
+                        field: "Ham_bek_sek",
+                        title: "Ham Fabrikadan Beklenen Şeker", width: 250
+                    },
+                    {
+                        field: "Top_bek_sek",
+                        title: "Toplam Beklenen Şeker", width: 250
+                    },
+                    {
+                        field: "Bugun_cik_sek",
+                        title: "Çuvallama Kantarından Bugün Çıkan Şeker(kg)", width: 350
+                    },
+                    {
+                        field: "Dun_cik_sek",
+                        title: "Çuvallama Kantarından Dün Çıkan Şeker(kg)", width: 350
+                    },
+                    {
+                        field: "Kiyim1_anlik_ton",
+                        title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250
+                    },
+                    {
+                        field: "Kiyim2_anlik_ton",
+                        title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250
+                    },
+                    {
+                        field: "Kiyim3_anlik_ton",
+                        title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250
+                    },
+                    {
+                        field: "Bugun_kes_pan",
+                        title: "Toplam Bugün Kesilen Pancar", width: 250
+                    },
+                    {
+                        field: "Dun_kes_pan",
+                        title: "Toplam Dün Kesilen Pancar", width: 250
+                    },
+                    {
+                        field: "Kiyim_polu",
+                        title: "Kıyım Polü", width: 100
+                    },
+                    {
+                        field: "ToplamPancar",
+                        title: "Toplam Pancar", width: 200
+                    },
+                    {
+                        field: "BugunGelenPancar",
+                        title: "Bugün Gelen Pancar", width: 200
+                    },
+                    {
+                        field: "KantardakiPancar",
+                        title: "Kantardaki Pancar", width: 200
+                    }
+                ]
+            });
+        });
+        function betweenFilter(args) {
+            var filterCell = args.element.parents(".k-filtercell");
+
+            filterCell.empty();
+            filterCell.html('<span style="display:flex; justify-content:center;"><span>İlk Tarih:</span><input  class="start-date"/><span>Son Tarih:</span><input  class="end-date"/></span>');
+
+            $(".start-date", filterCell).kendoDatePicker({
+                change: function (e) {
+                    var startDate = e.sender.value(),
+                        endDate = $("input.end-date", filterCell).data("kendoDatePicker").value(),
+                        dataSource = $("#grid").data("kendoGrid").dataSource;
+
+                    if (startDate & endDate) {
+                        var filter = { logic: "and", filters: [] };
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "gte", value: startDate });
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "lte", value: endDate });
+                        dataSource.filter(filter);
+                    }
+                }
+            });
+            $(".end-date", filterCell).kendoDatePicker({
+                change: function (e) {
+                    var startDate = $("input.start-date", filterCell).data("kendoDatePicker").value(),
+                        endDate = e.sender.value(),
+                        dataSource = $("#grid").data("kendoGrid").dataSource;
+
+                    if (startDate & endDate) {
+                        var filter = { logic: "and", filters: [] };
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "gte", value: startDate });
+                        filter.filters.push({ field: "Kayit_tar_saat", operator: "lte", value: endDate });
+                        dataSource.filter(filter);
+                    }
+                }
             });
 
-
-        </script>*@
-
-
-
-    <style type="text/css">
-        .customer-photo {
-            display: inline-block;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background-size: 32px 35px;
-            background-position: center center;
-            vertical-align: middle;
-            line-height: 32px;
-            box-shadow: inset 0 0 1px #999, inset 0 0 10px rgba(0,0,0,.2);
-            margin-left: 5px;
         }
-
-        .customer-name {
-            display: inline-block;
-            vertical-align: middle;
-            line-height: 32px;
-            padding-left: 3px;
-        }
-
-        .k-grid-header .k-header {
-            background-color: #47D147;
-        }
-    </style>
-    @*<div class="container">
-            <div class="table-responsive " id="no-more-tables" style="margin-bottom:100px; position:relative;">
-                <table class="col-md-12 table-bordered table-striped table-condensed table-hover cf ">
-                    <thead style="background-color:#47D147" class="text-white">
-                        <tr>
-                            <th class="fabrikaAdi">Fabrika Adı</th>
-                            <th class="numeric">Rafineriden Beklenen Şeker</th>
-                            <th class="numeric">Ham Fabrikadan Beklenen Şeker</th>
-                            <th class="numeric">Toplam Beklenen Şeker</th>
-                            <th class="numeric">Çuvallama Kantarından Bugün Çıkan Şeker(kg)</th>
-                            <th class="numeric">Çuvallama Kantarından Dün Çıkan Şeker(kg)</th>
-                            <th class="numeric">Kıyım Kantarı 1 Anlık Değeri(saat/ton)</th>
-                            <th class="numeric">Kıyım Kantarı 2 Anlık Değeri(saat/ton)</th>
-                            <th class="numeric">Kıyım Kantarı 3 Anlık Değeri(saat/ton)</th>
-                            <th class="numeric">Toplam Bugün Kesilen Pancar</th>
-                            <th class="numeric">Toplam Dün Kesilen Pancar</th>
-                            <th class="numeric">Kıyım Polü</th>
-                            <th class="numeric">Toplam Pancar</th>
-                            <th class="numeric">Bugün Gelen Pancar</th>
-                            <th class="numeric">Kantardaki Pancar</th>
-                            <th class="numeric">Tarih </th>
-                        </tr>
-
-
-                    </thead>
-                    <tbody>
-
-
-                        <tr>
-                            <td data-title="Fabrika Adı" class="fabrikaAdi " style="background:#FFFFFF;">Burdur</td>
-                            <td data-title="Raf. Bek." class="numeric">123254</td>
-                            <td data-title="Ham. Bek." class="numeric">45613</td>
-                            <td data-title="Top. Bek.">45613</td>
-                            <td data-title="Bgn Çık Şek.">45613</td>
-                            <td data-title="Dün Çık Şek.">45613</td>
-                            <td data-title="Kıyım 1 ">45613</td>
-                            <td data-title="Kıyım 2">45613</td>
-                            <td data-title="Kıyım 3">45613 </td>
-                            <td data-title="Bugün Kes.Pan.">45613</td>
-                            <td data-title="Dün Kes. Pan.">45613</td>
-                            <td data-title="Kıyım Polü">45613</td>
-                            <td data-title="Toplam Pancar">45613</td>
-                            <td data-title="Bugün Gelen Pan.">45613</td>
-                            <td data-title="Kantardaki Pan.">45613</td>
-                            <td data-title="Tarih ">45613</td>
-
-
-
-                        </tr>
-
-
-                        <tr>
-                            <td data-title="Fabrika Adı" class="fabrikaAdi " style="background:#ECECEC;">Ereğli</td>
-                            <td data-title="Raf. Bek." class="numeric">123254</td>
-                            <td data-title="Ham. Bek." class="numeric">45613</td>
-                            <td data-title="Top. Bek.">45613</td>
-                            <td data-title="Bgn Çık Şek.">45613</td>
-                            <td data-title="Dün Çık Şek.">45613</td>
-                            <td data-title="Kıyım 1 ">45613</td>
-                            <td data-title="Kıyım 2">45613</td>
-                            <td data-title="Kıyım 3">45613 </td>
-                            <td data-title="Bugün Kes.Pan.">45613</td>
-                            <td data-title="Dün Kes. Pan.">45613</td>
-                            <td data-title="Kıyım Polü">45613</td>
-                            <td data-title="Toplam Pancar">45613</td>
-                            <td data-title="Bugün Gelen Pan.">45613</td>
-                            <td data-title="Kantardaki Pan.">45613</td>
-                            <td data-title="Tarih ">45613</td>
-                        </tr>
-
-                        <tr>
-                            <td data-title="Fabrika Adı" class="fabrikaAdi " style="background:#FFFFFF;">Malatya</td>
-                            <td data-title="Raf. Bek." class="numeric">123254</td>
-                            <td data-title="Ham. Bek." class="numeric">45613</td>
-                            <td data-title="Top. Bek.">45613</td>
-                            <td data-title="Bgn Çık Şek.">45613</td>
-                            <td data-title="Dün Çık Şek.">45613</td>
-                            <td data-title="Kıyım 1 ">45613</td>
-                            <td data-title="Kıyım 2">45613</td>
-                            <td data-title="Kıyım 3">45613 </td>
-                            <td data-title="Bugün Kes.Pan.">45613</td>
-                            <td data-title="Dün Kes. Pan.">45613</td>
-                            <td data-title="Kıyım Polü">45613</td>
-                            <td data-title="Toplam Pancar">45613</td>
-                            <td data-title="Bugün Gelen Pan.">45613</td>
-                            <td data-title="Kantardaki Pan.">45613</td>
-                            <td data-title="Tarih ">45613</td>
-                        </tr>
-
-
-
-
-
-
-
-
-
-
-
-                        <tr>
-                            <td data-title="Fabrika Adı" class="fabrikaAdi" style="background:#ECECEC;">Susurluk</td>
-                            <td data-title="Raf. Bek." class="numeric">123254</td>
-                            <td data-title="Ham. Bek." class="numeric">45613</td>
-                            <td data-title="Top. Bek.">45613</td>
-                            <td data-title="Bgn Çık Şek.">45613</td>
-                            <td data-title="Dün Çık Şek.">45613</td>
-                            <td data-title="Kıyım 1 ">45613</td>
-                            <td data-title="Kıyım 2">45613</td>
-                            <td data-title="Kıyım 3">45613 </td>
-                            <td data-title="Bugün Kes.Pan.">45613</td>
-                            <td data-title="Dün Kes. Pan.">45613</td>
-                            <td data-title="Kıyım Polü">45613</td>
-                            <td data-title="Toplam Pancar">45613</td>
-                            <td data-title="Bugün Gelen Pan.">45613</td>
-                            <td data-title="Kantardaki Pan.">45613</td>
-                            <td data-title="Tarih ">45613</td>
-                        </tr>
-
-                        <tr>
-                            <td data-title="Fabrika Adı" class="fabrikaAdi" style="background:#FFFFFF;">Yozgat</td>
-                            <td data-title="Raf. Bek." class="numeric">123254</td>
-                            <td data-title="Ham. Bek." class="numeric">45613</td>
-                            <td data-title="Top. Bek.">45613</td>
-                            <td data-title="Bgn Çık Şek.">45613</td>
-                            <td data-title="Dün Çık Şek.">45613</td>
-                            <td data-title="Kıyım 1 ">45613</td>
-                            <td data-title="Kıyım 2">45613</td>
-                            <td data-title="Kıyım 3">45613 </td>
-                            <td data-title="Bugün Kes.Pan.">45613</td>
-                            <td data-title="Dün Kes. Pan.">45613</td>
-                            <td data-title="Kıyım Polü">45613</td>
-                            <td data-title="Toplam Pancar">45613</td>
-                            <td data-title="Bugün Gelen Pan.">45613</td>
-                            <td data-title="Kantardaki Pan.">45613</td>
-                            <td data-title="Tarih ">45613</td>
-                        </tr>
-
-
-
-
-
-
-
-
-
-                    </tbody>
-
-
-
-                </table>
-            </div>
-
-
-
-        </div>*@
-
-
+    </script>
 </div>
+
 

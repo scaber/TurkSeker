@@ -22,7 +22,7 @@ namespace TurkSeker.Web.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult TumVeriler()
         {
             ViewBag.Message = "Your contact page.";
 
