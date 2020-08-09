@@ -1,158 +1,135 @@
-﻿using Microsoft.AspNet.OData;
-using System.Data;
-using System.Linq;
-using System.Web.Http;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
+using System.Web.Mvc;
 using TurkSeker.Dal;
 using TurkSeker.Dal.Db;
+using TurkSeker.Dto.Parameters;
+using System.Web;
+using System.Web.Security;
+using System;
 
 namespace TurkSeker.Web.Controllers.Api
 {
-    /*
-    The WebApiConfig class may require additional changes to add a route for this controller. Merge these statements into the Register method of the WebApiConfig class as applicable. Note that OData URLs are case sensitive.
-
-    using System.Web.Http.OData.Builder;
-    using System.Web.Http.OData.Extensions;
-    using TurkSeker.Dal.Db;
-    ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
-    builder.EntitySet<Kullanici>("Kullanicis");
-    config.Routes.MapODataServiceRoute("odata", "odata", builder.GetEdmModel());
-    */
-    public class KullanicisController : ODataController
+    [AllowAnonymous]
+    public class KullanicisController : Controller
     {
-        private ModelTurkSeker db = new ModelTurkSeker();
+        private readonly UserManager<Kullanici> userManager;
 
-        // GET: odata/Kullanicis
-        [EnableQuery]
+        public KullanicisController()
+        {
+            var UserStore = new UserStore<Kullanici>(new ModelTurkSeker());
+            userManager = new UserManager<Kullanici>(UserStore);
+        }
+
+
         [HttpGet]
-        public IQueryable<Kullanici> Get()
+        public ActionResult Login()
         {
-            var veri = db.Kullanici;
-            return veri;
+            return View();
         }
-
-        // GET: odata/Kullanicis(5)
-        [EnableQuery]
-        public SingleResult<Kullanici> GetKullanici([FromODataUri] int key)
+        public ActionResult Login(PmLoginModel model, string returnUrl)
         {
-            return SingleResult.Create(db.Kullanici.Where(kullanici => kullanici.ID == key));
-        }
-
-        //// PUT: odata/Kullanicis(5)
-        //public IHttpActionResult Put([FromODataUri] int key, Delta<Kullanici> patch)
-        //{
-        //    Validate(patch.GetEntity());
-
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    Kullanici kullanici = db.Kullanici.Find(key);
-        //    if (kullanici == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    patch.Put(kullanici);
-
-        //    try
-        //    {
-        //        db.SaveChanges();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!KullaniciExists(key))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return Updated(kullanici);
-        //}
-
-        //// POST: odata/Kullanicis
-        //public IHttpActionResult Post(Kullanici kullanici)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    db.Kullanici.Add(kullanici);
-        //    db.SaveChanges();
-
-        //    return Created(kullanici);
-        //}
-
-        //// PATCH: odata/Kullanicis(5)
-        //[AcceptVerbs("PATCH", "MERGE")]
-        //public IHttpActionResult Patch([FromODataUri] int key, Delta<Kullanici> patch)
-        //{
-        //    Validate(patch.GetEntity());
-
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    Kullanici kullanici = db.Kullanici.Find(key);
-        //    if (kullanici == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    patch.Patch(kullanici);
-
-        //    try
-        //    {
-        //        db.SaveChanges();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!KullaniciExists(key))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return Updated(kullanici);
-        //}
-
-        //// DELETE: odata/Kullanicis(5)
-        //public IHttpActionResult Delete([FromODataUri] int key)
-        //{
-        //    Kullanici kullanici = db.Kullanici.Find(key);
-        //    if (kullanici == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    db.Kullanici.Remove(kullanici);
-        //    db.SaveChanges();
-
-        //    return StatusCode(HttpStatusCode.NoContent);
-        //}
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
+            if (ModelState.IsValid)
             {
-                db.Dispose();
+                var user = userManager.Find(model.UserName, model.Password);
+                if (user == null)
+                {
+                    ModelState.AddModelError("", "Yanlış Kullanıcı Adı veya Parola");
+                }
+                else
+                {
+                    int timeout =   525600 ;
+                    var ticket = new FormsAuthenticationTicket(model.UserName, true, timeout);
+                    string encrypted = FormsAuthentication.Encrypt(ticket);
+                    var cookie = new HttpCookie(FormsAuthentication.FormsCookieName, encrypted);
+                    cookie.Expires = DateTime.Now.AddMinutes(timeout);
+                    cookie.HttpOnly = true;
+                    Response.Cookies.Add(cookie);
+
+                    if (Url.IsLocalUrl(returnUrl))
+                    {
+                        return Redirect(returnUrl);
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+
+                    //return Redirect(string.IsNullOrEmpty(returnUrl) ? "/" : returnUrl);
+
+                }
+
+
+
             }
-            base.Dispose(disposing);
+            ViewBag.returnUrl = returnUrl;
+
+            return View(model);
         }
 
-        private bool KullaniciExists(int key)
+
+        public ActionResult Register()
         {
-            return db.Kullanici.Count(e => e.ID == key) > 0;
+
+
+            return View();
+        }
+        [HttpPost]
+
+        //  [ValidateAntiForgeryToken]
+        [AllowAnonymous]
+        public ActionResult Register(PmRegister model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    Kullanici user = new Kullanici();
+                    user.UserName = model.UserName;
+
+                    var RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>());
+                    string name = "Admin";
+             
+                    //Create Role Admin if it does not exist
+                    if (!RoleManager.RoleExists(name))
+                    {
+                        var roleresult = RoleManager.Create(new IdentityRole(name));
+                    }
+
+
+
+                    var result = userManager.Create(user, model.Password);
+
+                    if (result.Succeeded)
+                    {
+                        userManager.AddToRole(user.Id, "User");
+                        return RedirectToAction("Login");
+                    }
+                    else
+                    {
+                        foreach (var error in result.Errors)
+                        {
+                            ModelState.AddModelError("", error);
+                        }
+                    }
+                }
+
+                return View(model);
+            }
+            catch (System.Exception e)
+            {
+
+                throw;
+            }
+        }
+
+        [HttpPost]
+        [Authorize]
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Login", "Kullanicis");
         }
     }
 }

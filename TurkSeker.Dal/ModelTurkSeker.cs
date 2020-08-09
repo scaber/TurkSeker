@@ -1,16 +1,18 @@
-﻿using System.Data.Entity;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 using TurkSeker.Dal.Db;
 
 namespace TurkSeker.Dal
 {
-    public class ModelTurkSeker : DbContext
+    public class ModelTurkSeker : IdentityDbContext<Kullanici>
     {
         public ModelTurkSeker():base("name=ModelTurkSeker")
         {
 
         } 
-        public virtual DbSet<Kullanici> Kullanici { get; set; }
-        public virtual DbSet<genelmd> GenelMd { get; set; }
+         public virtual DbSet<genelmd> GenelMd { get; set; }
+
+ 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -19,6 +21,7 @@ namespace TurkSeker.Dal
             base.OnModelCreating(modelBuilder);
         }
 
+        
     }
 
 }

@@ -1,0 +1,32 @@
+﻿@model  TurkSeker.Dto.Parameters.PmRegister
+@{
+    Layout = null;
+}
+
+<h2>Kayıt Ol</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+
+        <label>Username</label>
+        @Html.TextBoxFor(i => i.UserName, new { @class = "Form-Control" })
+
+
+    </div>
+    <div class="form-group">
+
+        <label>Password</label>
+        @Html.TextBoxFor(i => i.Password, new { @class = "Form-Control" })
+
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+
+
+
+}

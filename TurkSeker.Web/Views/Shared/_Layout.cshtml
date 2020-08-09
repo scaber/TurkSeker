@@ -79,129 +79,149 @@
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
                     <img src="~/img/seker_logo_dikdortgen.png" width="200" class="navbar-brand" alt="">
-                </li> 
-            </ul>  
+                </li>
+                <li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        using (Html.BeginForm("Logout", "Kullanicis", FormMethod.Post, new { id = "logoutForm" }))
+                        {
+                            <a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
+                        }
+                    }
+                </li>
+            </ul>
         </nav>
-        <!-- /.navbar -->
-        <!-- Main Sidebar Container -->
+        <ul class="navbar-nav ml-auto">
+            <li>
+                @if (Request.IsAuthenticated)
+                {
+                    using (Html.BeginForm("Logout", "Kullanicis", FormMethod.Post, new { id = "logoutForm" }))
+                    {
+                        <a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
+                    }
+                }
+            </li>
+        </ul>
+            <!-- /.navbar -->
+            <!-- Main Sidebar Container -->
 
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
-            <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
-                 
-                <img src="~/img/logo.png" alt="Türk Şeker" class="brand-image img-circle elevation-3"
-                     style="opacity: .8">
-                <span class="brand-text font-weight-light">Türk Şeker</span>
-            </a>
+            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                <!-- Brand Logo -->
+                <a href="index3.html" class="brand-link">
+
+                    <img src="~/img/logo.png" alt="Türk Şeker" class="brand-image img-circle elevation-3"
+                         style="opacity: .8">
+                    <span class="brand-text font-weight-light">Türk Şeker</span>
+                </a>
 
 
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <!-- Sidebar user panel (optional) -->
-                @*<div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                    <div class="info">
-                        <a href="#" class="d-block">Emre Eryıldız</a>
-                    </div>
-                </div>*@
-                <div class="info">  <a href="#" class="d-block">Emre Eryıldız</a></div>
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <!-- Sidebar user panel (optional) -->
+                    @*<div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                        <div class="info">
+                            <a href="#" class="d-block">Emre Eryıldız</a>
+                        </div>
+                    </div>*@
+                    <div class="info">  <a href="#" class="d-block">Emre Eryıldız</a></div>
 
-                <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-            with font-awesome or any other icon font library -->
-                        <li class="nav-item has-treeview menu-open">
-                           
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="/Home/index" class="nav-link active">
-                                        <i class="fa fa-home nav-icon"></i>
-                                        <p>Ana Sayfa</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="/Home/TumVeriler" class="nav-link">
-                                        <i class="fa fa-table nav-icon"></i>
-                                        <p>Tüm Veriler</p>
-                                    </a>
-                                </li> 
-                            </ul>
-                        </li>
+                    <!-- Sidebar Menu -->
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                            <!-- Add icons to the links using the .nav-icon class
+                        with font-awesome or any other icon font library -->
+                            <li class="nav-item has-treeview menu-open">
 
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fa fa-industry"></i>
-                                <p>
-                                    Fabrikalar
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="pages/tables/simple.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Burdur</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/tables/data.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Ereğli</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/tables/jsgrid.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Malatya</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/tables/jsgrid.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Susurluk</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/tables/jsgrid.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Yozgat</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="/Home/index" class="nav-link active">
+                                            <i class="fa fa-home nav-icon"></i>
+                                            <p>Ana Sayfa</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/Home/TumVeriler" class="nav-link">
+                                            <i class="fa fa-table nav-icon"></i>
+                                            <p>Tüm Veriler</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
 
-                    </ul>
-                </nav>
-                <!-- /.sidebar-menu -->
+                            <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fa fa-industry"></i>
+                                    <p>
+                                        Fabrikalar
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        <a href="pages/tables/simple.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Burdur</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/tables/data.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Ereğli</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/tables/jsgrid.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Malatya</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/tables/jsgrid.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Susurluk</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pages/tables/jsgrid.html" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Yozgat</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <div class="content-header">
+                    <div class="container-fluid">
+                        @RenderBody()
+                    </div><!-- /.container-fluid -->
+                </div>
+                <!-- /.content-header -->
+
             </div>
-            <!-- /.sidebar -->
-        </aside>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <strong>Copyright &copy;@DateTime.Now.Year  <a href="https://www.turkseker.gov.tr/?ModulID=3&MenuID=26">Türkiye Şeker Fabrikaları AŞ. - EMAF </a>.</strong>
+                Tüm Hakları Saklıdır.
+                <div class="float-right d-none d-sm-inline-block">
+                    <b>Versiyon</b> 1.0.0
+                </div>
+            </footer>
 
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <div class="content-header">
-                <div class="container-fluid">
-                    @RenderBody()
-                </div><!-- /.container-fluid -->
-            </div>
-            <!-- /.content-header -->
-           
-        </div>
-        <!-- /.content-wrapper -->
-        <footer class="main-footer">
-            <strong>Copyright &copy;@DateTime.Now.Year  <a href="https://www.turkseker.gov.tr/?ModulID=3&MenuID=26">Türkiye Şeker Fabrikaları AŞ. - EMAF </a>.</strong>
-            Tüm Hakları Saklıdır.
-            <div class="float-right d-none d-sm-inline-block">
-                <b>Versiyon</b> 1.0.0
-            </div>
-        </footer>
-
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
-        <!-- /.control-sidebar -->
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
 
     </div>
     <script src="~/Content/plugins/jquery/jquery.min.js"></script>

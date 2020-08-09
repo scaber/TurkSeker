@@ -18,7 +18,7 @@ namespace TurkSeker.Web.App_Start
             config.Count().Filter().OrderBy().Expand().Select().MaxTop(null);
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
 
-            builder.EntitySet<Kullanici>("Kullanicis");
+          //  builder.EntitySet<Kullanici>("Kullanicis");
             builder.EntitySet<genelmd>("genelmd");
             //Moar!
 

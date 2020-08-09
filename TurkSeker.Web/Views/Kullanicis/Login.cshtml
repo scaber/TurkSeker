@@ -1,0 +1,116 @@
+﻿@model TurkSeker.Dto.Parameters.PmLoginModel
+
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: url(../img/pancar.jpg);
+        background-size: cover;
+        font-family: sans-serif;
+        background-position: right;
+        height: 100vh;
+    }
+
+    .loginBox {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 350px;
+        height: 400px;
+        padding: 80px 40px;
+        box-sizing: border-box;
+        background: rgba(0,0,0,.5);
+    }
+
+    .user {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        top: calc(-100px/2);
+        left: calc(50% - 50px);
+    }
+
+    h2 {
+        margin: 0;
+        padding: 0 0 20px;
+        color: #efed40;
+        text-align: center;
+    }
+
+    .loginBox p {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: #fff;
+    }
+
+
+    .loginBox input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .loginBox input[type="text"],
+        .loginBox input[type="password"] {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background-color: #E8F0FE;
+            outline: none;
+            height: 40px;
+            font-size: 16px;
+        }
+
+    ::placeholder {
+        color: rgba(255,255,255,.8)
+    }
+
+    .loginBox input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+        background: #47d147;
+        cursor: pointer;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+        .loginBox input[type="submit"]:hover {
+            background: #efed40;
+            color: #262626;
+        }
+</style>
+<script src="https://kit.fontawesome.com/3133cb4db7.js" crossorigin="anonymous"></script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="loginBox">
+        <img src="~/img/user.jpg" class="user">
+        <h2> Giriş Yap</h2>
+        <form>
+            <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+            <div class="form-group">
+                <p>Kullanıcı Adı</p>
+                @Html.TextBoxFor(i => i.UserName, new { @type = "text", @class = "form-control" })
+
+            </div>
+            <div class="form-group">
+                <p>Şifre</p>
+                 @Html.PasswordFor(i => i.Password, new { @type = "password", @class = "form-control" })
+
+            </div>
+            <input type="submit" name="" value="Giriş Yap">
+        </form>
+    </div>
+
+
+}

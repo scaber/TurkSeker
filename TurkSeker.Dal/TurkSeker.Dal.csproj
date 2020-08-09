@@ -40,6 +40,12 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.3\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.3\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -62,6 +68,14 @@
     <Compile Include="Migrations\202008081311416_genelmdtablosunuekleme.designer.cs">
       <DependentUpon>202008081311416_genelmdtablosunuekleme.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008091815582_Identityuser.cs" />
+    <Compile Include="Migrations\202008091815582_Identityuser.designer.cs">
+      <DependentUpon>202008091815582_Identityuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008091822351_IdentityuserChange.cs" />
+    <Compile Include="Migrations\202008091822351_IdentityuserChange.designer.cs">
+      <DependentUpon>202008091822351_IdentityuserChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelTurkSeker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +90,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008081311416_genelmdtablosunuekleme.resx">
       <DependentUpon>202008081311416_genelmdtablosunuekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008091815582_Identityuser.resx">
+      <DependentUpon>202008091815582_Identityuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008091822351_IdentityuserChange.resx">
+      <DependentUpon>202008091822351_IdentityuserChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

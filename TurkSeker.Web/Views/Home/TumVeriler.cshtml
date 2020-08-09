@@ -153,6 +153,7 @@
             filterCell.html('<span style="display:flex; justify-content:center;"><span>İlk Tarih:</span><input  class="start-date"/><span>Son Tarih:</span><input  class="end-date"/></span>');
 
             $(".start-date", filterCell).kendoDatePicker({
+               
                 change: function (e) {
                     var startDate = e.sender.value(),
                         endDate = $("input.end-date", filterCell).data("kendoDatePicker").value(),
