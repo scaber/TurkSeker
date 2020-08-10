@@ -23,6 +23,7 @@
                             dataType: "json"
                         }
                     },
+                    sort: { field: "Kayit_tar_saat", dir: "desc" },
                     schema: {
                         model: {
                             fields: {
@@ -49,6 +50,7 @@
                     pageSize: 20,
                     serverPaging: true,
                     serverFiltering: true,
+                    serverSorting: true,
                 },
                 sortable: {
                     mode: "multiple",
@@ -63,7 +65,7 @@
                 sortable: true,
                 pageable: {
                     refresh: true,
-                    pageSizes: [20, 50, 100, 1000, 50000],
+                    pageSizes: [20, 50, 100,500, 1000,5000],
                     buttonCount: 5
                 },
                 columns: [
@@ -89,11 +91,11 @@
                     {
                         field: "Raf_bek_sek",
                         title: "Rafineriden Beklenen Şeker",
-                        width: 200
+                        width: 200, format: "{0:n2}"
                     },
                     {
                         field: "Ham_bek_sek",
-                        title: "Ham Fabrikadan Beklenen Şeker", width: 250
+                        title: "Ham Fabrikadan Beklenen Şeker", width: 250, format: "{0:n}"
                     },
                     {
                         field: "Top_bek_sek",
@@ -153,7 +155,7 @@
             filterCell.html('<span style="display:flex; justify-content:center;"><span>İlk Tarih:</span><input  class="start-date"/><span>Son Tarih:</span><input  class="end-date"/></span>');
 
             $(".start-date", filterCell).kendoDatePicker({
-               
+
                 change: function (e) {
                     var startDate = e.sender.value(),
                         endDate = $("input.end-date", filterCell).data("kendoDatePicker").value(),

@@ -89,10 +89,22 @@
         }
 </style>
 <script src="https://kit.fontawesome.com/3133cb4db7.js" crossorigin="anonymous"></script>
+@*<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <img src="~/img/seker_logo_dikdortgen.png" width="300" class="navbar-brand" alt="">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-sm-auto">
+            <li class="nav-item">
+                <img src="~/img/EMAFLOG.png" width="300" alt="">
+            </li>
+        </ul>
+    </div>
+</nav>
+<hr />*@
 
 @using (Html.BeginForm())
 {
-    @Html.AntiForgeryToken()
+    @Html.AntiForgeryToken() 
+
     <div class="loginBox">
         <img src="~/img/user.jpg" class="user">
         <h2> Giriş Yap</h2>
@@ -105,7 +117,7 @@
             </div>
             <div class="form-group">
                 <p>Şifre</p>
-                 @Html.PasswordFor(i => i.Password, new { @type = "password", @class = "form-control" })
+                @Html.PasswordFor(i => i.Password, new { @type = "password", @class = "form-control" })
 
             </div>
             <input type="submit" name="" value="Giriş Yap">

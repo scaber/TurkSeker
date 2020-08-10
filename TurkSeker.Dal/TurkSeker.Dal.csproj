@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Db\Base.cs" />
+    <Compile Include="Db\Fabrika.cs" />
     <Compile Include="Db\genelmd.cs" />
     <Compile Include="Db\Kullanici.cs" />
     <Compile Include="Migrations\202008061955223_First.cs" />
@@ -75,6 +76,10 @@
     <Compile Include="Migrations\202008091822351_IdentityuserChange.cs" />
     <Compile Include="Migrations\202008091822351_IdentityuserChange.designer.cs">
       <DependentUpon>202008091822351_IdentityuserChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008102025542_Fabrikaeklendi.cs" />
+    <Compile Include="Migrations\202008102025542_Fabrikaeklendi.designer.cs">
+      <DependentUpon>202008102025542_Fabrikaeklendi.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelTurkSeker.cs" />
@@ -96,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008091822351_IdentityuserChange.resx">
       <DependentUpon>202008091822351_IdentityuserChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008102025542_Fabrikaeklendi.resx">
+      <DependentUpon>202008102025542_Fabrikaeklendi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

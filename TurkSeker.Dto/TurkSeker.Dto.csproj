@@ -45,9 +45,8 @@
     <Compile Include="Parameters\PmRegister.cs" />
     <Compile Include="Parameters\RequiredAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\RsGenelMd.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Results\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

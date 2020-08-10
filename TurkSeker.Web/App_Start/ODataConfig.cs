@@ -7,7 +7,8 @@ using System.Web.Http;
  
 using TurkSeker.Dal.Db;
 using Microsoft.AspNet.OData.Builder;
- 
+using TurkSeker.Dto.Results;
+
 namespace TurkSeker.Web.App_Start
 {
     public static class ODataConfig
@@ -18,8 +19,9 @@ namespace TurkSeker.Web.App_Start
             config.Count().Filter().OrderBy().Expand().Select().MaxTop(null);
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
 
-          //  builder.EntitySet<Kullanici>("Kullanicis");
-            builder.EntitySet<genelmd>("genelmd");
+             builder.EntitySet<Fabrika>("Fabrikas");
+            builder.EntitySet<genelmd>("genelmd"); 
+            builder.EntitySet<RsGenelMd>("RsGenelMd");
             //Moar!
 
             config.MapODataServiceRoute("ODataRoute", "api", builder.GetEdmModel());
