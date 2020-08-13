@@ -15,11 +15,16 @@ namespace TurkSeker.Web.Controllers.Api
     public class KullanicisController : Controller
     {
         private readonly UserManager<Kullanici> userManager;
+        private readonly RoleManager<IdentityRole> roleManager;
 
         public KullanicisController()
         {
             var UserStore = new UserStore<Kullanici>(new ModelTurkSeker());
             userManager = new UserManager<Kullanici>(UserStore);
+
+            var RoleStore = new RoleStore<IdentityRole>(new ModelTurkSeker());
+            roleManager = new RoleManager<IdentityRole>(RoleStore);
+
         }
 
 
@@ -39,7 +44,7 @@ namespace TurkSeker.Web.Controllers.Api
                 }
                 else
                 {
-                    int timeout =   525600 ;
+                    int timeout = 525600;
                     var ticket = new FormsAuthenticationTicket(model.UserName, true, timeout);
                     string encrypted = FormsAuthentication.Encrypt(ticket);
                     var cookie = new HttpCookie(FormsAuthentication.FormsCookieName, encrypted);
@@ -76,8 +81,7 @@ namespace TurkSeker.Web.Controllers.Api
             return View();
         }
         [HttpPost]
-
-        //  [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         [AllowAnonymous]
         public ActionResult Register(PmRegister model)
         {
@@ -88,22 +92,21 @@ namespace TurkSeker.Web.Controllers.Api
                     Kullanici user = new Kullanici();
                     user.UserName = model.UserName;
 
-                    var RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>());
+                    
                     string name = "Admin";
-             
+
                     //Create Role Admin if it does not exist
-                    if (!RoleManager.RoleExists(name))
+                    if (!roleManager.RoleExists(name))
                     {
-                        var roleresult = RoleManager.Create(new IdentityRole(name));
+                        var roleresult = roleManager.Create(new IdentityRole(name));
                     }
-
-
+                     
 
                     var result = userManager.Create(user, model.Password);
 
                     if (result.Succeeded)
                     {
-                        userManager.AddToRole(user.Id, "User");
+                        userManager.AddToRole(user.Id, name);
                         return RedirectToAction("Login");
                     }
                     else
@@ -122,8 +125,7 @@ namespace TurkSeker.Web.Controllers.Api
 
                 throw;
             }
-        }
-
+        } 
         [HttpPost]
         [Authorize]
         public ActionResult Logout()

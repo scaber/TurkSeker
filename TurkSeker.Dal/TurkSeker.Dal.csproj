@@ -81,6 +81,30 @@
     <Compile Include="Migrations\202008102025542_Fabrikaeklendi.designer.cs">
       <DependentUpon>202008102025542_Fabrikaeklendi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008122048201_updategenelmd.cs" />
+    <Compile Include="Migrations\202008122048201_updategenelmd.designer.cs">
+      <DependentUpon>202008122048201_updategenelmd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008131600254_test.cs" />
+    <Compile Include="Migrations\202008131600254_test.designer.cs">
+      <DependentUpon>202008131600254_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008131730378_test1.cs" />
+    <Compile Include="Migrations\202008131730378_test1.designer.cs">
+      <DependentUpon>202008131730378_test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008131731189_test2.cs" />
+    <Compile Include="Migrations\202008131731189_test2.designer.cs">
+      <DependentUpon>202008131731189_test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008131734535_test3.cs" />
+    <Compile Include="Migrations\202008131734535_test3.designer.cs">
+      <DependentUpon>202008131734535_test3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008131748112_test4.cs" />
+    <Compile Include="Migrations\202008131748112_test4.designer.cs">
+      <DependentUpon>202008131748112_test4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelTurkSeker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +128,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008102025542_Fabrikaeklendi.resx">
       <DependentUpon>202008102025542_Fabrikaeklendi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008122048201_updategenelmd.resx">
+      <DependentUpon>202008122048201_updategenelmd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008131600254_test.resx">
+      <DependentUpon>202008131600254_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008131730378_test1.resx">
+      <DependentUpon>202008131730378_test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008131731189_test2.resx">
+      <DependentUpon>202008131731189_test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008131734535_test3.resx">
+      <DependentUpon>202008131734535_test3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008131748112_test4.resx">
+      <DependentUpon>202008131748112_test4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

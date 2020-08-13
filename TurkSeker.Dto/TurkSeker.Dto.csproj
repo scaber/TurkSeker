@@ -47,6 +47,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Results\RsGenelMd.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\TurkSeker.Dal\TurkSeker.Dal.csproj">
+      <Project>{022D286C-6B5A-4886-96D1-F5A42F56D03D}</Project>
+      <Name>TurkSeker.Dal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

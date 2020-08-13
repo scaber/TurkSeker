@@ -29,5 +29,6 @@ namespace TurkSeker.Dal.Db
         public double? ToplamPancar { get; set; }
         public double? BugunGelenPancar { get; set; }
         public double? KantardakiPancar { get; set; }
+
     }
 }

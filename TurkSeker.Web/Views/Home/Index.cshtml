@@ -3,13 +3,13 @@
 }
 @*<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.default-v2.min.css" />
 
-<script src="https://kendo.cdn.telerik.com/2020.2.617/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2020.2.617/js/jquery.min.js"></script>
 
-<script src="https://kendo.cdn.telerik.com/2020.2.617/js/kendo.all.min.js"></script>*@
+    <script src="https://kendo.cdn.telerik.com/2020.2.617/js/kendo.all.min.js"></script>*@
 
 
 <link href="~/Content/kendo/css/kendo.default-v2.min.css" rel="stylesheet" />
-<script src="~/Content/kendo/js/jquery.min.js"></script> 
+<script src="~/Content/kendo/js/jquery.min.js"></script>
 <script src="~/Content/kendo/js/kendo.all.min.js"></script>
 <script src="~/Content/kendo/js/Turkce.min.js"></script>
 
@@ -23,12 +23,16 @@
                     type: "odata-v4",
                     transport: {
                         read: {
-                            url: "/api/genelmd",
-                            dataType: "json"
+                            url: "/api/Fabrikas",
+                            dataType: "json",
+                            data: {
+                                $expand: "Genelmds($top = 1; $orderby=Id desc)"
+                            }
                         }
 
                     },
-                    sort: { field: "Kayit_tar_saat", dir: "desc" },
+                    //filter: { field: "FabrikaId", operator: "startswith", value: "Jane" },
+
                     schema: {
                         model: {
                             fields: {
@@ -63,7 +67,7 @@
                     allowUnsort: true,
                     showIndexes: true
                 },
-                
+
                 height: 600,
                 groupable: true,
                 sortable: true,
@@ -84,74 +88,71 @@
                     }
                     ,
                     {
-                        field: "Kayit_tar_saat",
-                        title: "Tarih", width: 340,
-                        template: "#= kendo.toString(kendo.parseDate(Kayit_tar_saat, 'dd/MM/yyyy HH:mm'), 'dd/MM/yyyy HH:mm') #",
-                        filterable: {
-                            cell: { template: betweenFilter }
-
-                        }
+                        field: "Genelmds", template: "#=kendo.toString(kendo.parseDate(Genelmds[0].Kayit_tar_saat,'yyyy-MM-ddTHH:mm:ss'), 'dd/MM/yyyy HH:mm')#",
+                        type: "date",
+                        title: "Tarih", width: 340, 
                     },
                     {
-                        field: "Raf_bek_sek",
+                        field: "Genelmds[0].Raf_bek_sek",
                         title: "Rafineriden Beklenen Şeker",
                         width: 200
                     },
                     {
-                        field: "Ham_bek_sek",
+                        field: "Genelmds[0].Ham_bek_sek",
                         title: "Ham Fabrikadan Beklenen Şeker", width: 250
                     },
                     {
-                        field: "Top_bek_sek",
+                        field: "Genelmds[0].Top_bek_sek",
                         title: "Toplam Beklenen Şeker", width: 250
                     },
                     {
-                        field: "Bugun_cik_sek",
+                        field: "Genelmds[0].Bugun_cik_sek",
                         title: "Çuvallama Kantarından Bugün Çıkan Şeker(kg)", width: 350
                     },
                     {
-                        field: "Dun_cik_sek",
+                        field: "Genelmds[0].Dun_cik_sek",
                         title: "Çuvallama Kantarından Dün Çıkan Şeker(kg)", width: 350
                     },
                     {
-                        field: "Kiyim1_anlik_ton",
+                        field: "Genelmds[0].Kiyim1_anlik_ton",
                         title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250
                     },
                     {
-                        field: "Kiyim2_anlik_ton",
+                        field: "Genelmds[0].Kiyim2_anlik_ton",
                         title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250
                     },
                     {
-                        field: "Kiyim3_anlik_ton",
+                        field: "Genelmds[0].Kiyim3_anlik_ton",
                         title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250
                     },
                     {
-                        field: "Bugun_kes_pan",
+                        field: "Genelmds[0].Bugun_kes_pan",
                         title: "Toplam Bugün Kesilen Pancar", width: 250
                     },
                     {
-                        field: "Dun_kes_pan",
+                        field: "Genelmds[0].Dun_kes_pan",
                         title: "Toplam Dün Kesilen Pancar", width: 250
                     },
                     {
-                        field: "Kiyim_polu",
+                        field: "Genelmds[0].Kiyim_polu",
                         title: "Kıyım Polü", width: 100
                     },
                     {
-                        field: "ToplamPancar",
+                        field: "Genelmds[0].ToplamPancar",
                         title: "Toplam Pancar", width: 200
                     },
                     {
-                        field: "BugunGelenPancar",
+                        field: "Genelmds[0].BugunGelenPancar",
                         title: "Bugün Gelen Pancar", width: 200
                     },
                     {
-                        field: "KantardakiPancar",
+                        field: "Genelmds[0].KantardakiPancar",
                         title: "Kantardaki Pancar", width: 200
                     }
                 ]
             });
         });
+
         function betweenFilter(args) {
             var filterCell = args.element.parents(".k-filtercell");
 

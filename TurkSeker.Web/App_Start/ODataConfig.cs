@@ -16,10 +16,10 @@ namespace TurkSeker.Web.App_Start
         public static void Register(HttpConfiguration config)
         {
             config.MapHttpAttributeRoutes(); //This has to be called before the following OData mapping, so also before WebApi mapping
-            config.Count().Filter().OrderBy().Expand().Select().MaxTop(null);
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
+            config.Count().Filter().OrderBy().Expand().Select().MaxTop(null);
 
-             builder.EntitySet<Fabrika>("Fabrikas");
+            builder.EntitySet<Fabrika>("Fabrikas");
             builder.EntitySet<genelmd>("genelmd"); 
             builder.EntitySet<RsGenelMd>("RsGenelMd");
             //Moar!

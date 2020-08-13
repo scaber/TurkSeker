@@ -246,13 +246,17 @@
     <Compile Include="App_Start\ODataConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\AdminRoleController.cs" />
     <Compile Include="Controllers\Api\BaseController.cs" />
+    <Compile Include="Controllers\Api\FabrikasController.cs" />
     <Compile Include="Controllers\Api\GenelMdController.cs" />
     <Compile Include="Controllers\Api\KullanicisController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Modelller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2086,10 +2090,13 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Kullanicis\Login.cshtml" />
     <Content Include="Views\Kullanicis\Register.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\AdminRole\Create.cshtml" />
+    <Content Include="Views\AdminRole\Edit.cshtml" />
+    <Content Include="Views\AdminRole\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\GenelMd\" />
   </ItemGroup>
