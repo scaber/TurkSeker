@@ -109,7 +109,7 @@
         <img src="~/img/user.jpg" class="user">
         <h2> Giriş Yap</h2>
         <form>
-            <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+            <input type="hidden" name="returnUrl" value=@Request.QueryString["returnUrl"] />
             <div class="form-group">
                 <p>Kullanıcı Adı</p>
                 @Html.TextBoxFor(i => i.UserName, new { @type = "text", @class = "form-control" })

@@ -44,40 +44,30 @@ namespace TurkSeker.Web.Controllers.Api
                 }
                 else
                 {
-                    int timeout = 525600;
-                    var ticket = new FormsAuthenticationTicket(model.UserName, true, timeout);
-                    string encrypted = FormsAuthentication.Encrypt(ticket);
-                    var cookie = new HttpCookie(FormsAuthentication.FormsCookieName, encrypted);
-                    cookie.Expires = DateTime.Now.AddMinutes(timeout);
-                    cookie.HttpOnly = true;
-                    Response.Cookies.Add(cookie);
+                    var authManager = HttpContext.GetOwinContext().Authentication;
+                    var identity = userManager.CreateIdentity(user, "ApplicationCookie");
+                    var authProperties = new AuthenticationProperties()
 
+                    {
+
+                        IsPersistent = true
+                    }; 
+                    authManager.SignIn(authProperties, identity);
                     if (Url.IsLocalUrl(returnUrl))
                     {
                         return Redirect(returnUrl);
                     }
                     else
                     {
-                        return RedirectToAction("Index", "Home");
-                    }
-
-                    //return Redirect(string.IsNullOrEmpty(returnUrl) ? "/" : returnUrl);
-
-                }
-
-
-
+                        return Redirect(string.IsNullOrEmpty(returnUrl) ? "/" : returnUrl);
+                    } 
+                }  
             }
-            ViewBag.returnUrl = returnUrl;
-
+            ViewBag.returnUrl = returnUrl; 
             return View(model);
-        }
-
-
+        } 
         public ActionResult Register()
-        {
-
-
+        { 
             return View();
         }
         [HttpPost]
@@ -91,8 +81,7 @@ namespace TurkSeker.Web.Controllers.Api
                 {
                     Kullanici user = new Kullanici();
                     user.UserName = model.UserName;
-
-                    
+                     
                     string name = "Admin";
 
                     //Create Role Admin if it does not exist
@@ -129,8 +118,9 @@ namespace TurkSeker.Web.Controllers.Api
         [HttpPost]
         [Authorize]
         public ActionResult Logout()
-        {
-            FormsAuthentication.SignOut();
+        { 
+            var authManager = HttpContext.GetOwinContext().Authentication;
+            authManager.SignOut();
             return RedirectToAction("Login", "Kullanicis");
         }
     }

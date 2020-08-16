@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Türk Şeker</title>
-    @*@Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")*@
+    @*  @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
     @*<link href="~/Content/kendo/css/kendo.default-v2.min.css" rel="stylesheet" />
         <script src="~/Content/kendo/js/kendo.all.min.js"></script*@
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,14 +13,15 @@
     <link rel="stylesheet" href="~/Content/plugins/fontawesome-free/css/all.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- Tempusdominus Bbootstrap 4 -->
-    <link rel="stylesheet" href="~/Content/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="~/Content/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- JQVMap -->
     <link rel="stylesheet" href="~/Content/plugins/jqvmap/jqvmap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="~/Content/dist/css/adminlte.min.css">
+    <!-- Tempusdominus Bbootstrap 4 -->
+    <link rel="stylesheet" href="~/Content/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="~/Content/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
@@ -31,7 +32,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
 </head>
-<body  class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition sidebar-mini layout-fixed">
 
     @*<nav class="navbar navbar-expand-sm navbar-light bg-light">
 
@@ -66,7 +67,7 @@
                 </ul>
 
             </div>
-        </nav>*@ 
+        </nav>*@
 
     <div class="wrapper">
 
@@ -80,166 +81,169 @@
                 <li class="nav-item d-none d-sm-inline-block">
                     <img src="~/img/seker_logo_dikdortgen.png" width="200" class="navbar-brand" alt="">
                 </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
                 <li>
                     @if (Request.IsAuthenticated)
                     {
                         using (Html.BeginForm("Logout", "Kullanicis", FormMethod.Post, new { id = "logoutForm" }))
                         {
-                            <a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
+                            <a class="btn btn-primary" href="javascript:document.getElementById('logoutForm').submit()">Çıkış Yap</a>
                         }
                     }
                 </li>
             </ul>
         </nav>
-        <ul class="navbar-nav ml-auto">
-            <li>
-                @if (Request.IsAuthenticated)
-                {
-                    using (Html.BeginForm("Logout", "Kullanicis", FormMethod.Post, new { id = "logoutForm" }))
-                    {
-                        <a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
-                    }
-                }
-            </li>
-        </ul>
-            <!-- /.navbar -->
-            <!-- Main Sidebar Container -->
-
-            <aside class="main-sidebar sidebar-dark-primary elevation-4">
-                <!-- Brand Logo -->
-                <a href="index3.html" class="brand-link">
-
-                    <img src="~/img/logo.png" alt="Türk Şeker" class="brand-image img-circle elevation-3"
-                         style="opacity: .8">
-                    <span class="brand-text font-weight-light">Türk Şeker</span>
-                </a>
 
 
-                <!-- Sidebar -->
-                <div class="sidebar">
-                    <!-- Sidebar user panel (optional) -->
-                    @*<div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                        <div class="info">
-                            <a href="#" class="d-block">Emre Eryıldız</a>
-                        </div>
-                    </div>*@
-                    <div class="info">  <a href="#" class="d-block">Emre Eryıldız</a></div>
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
 
-                    <!-- Sidebar Menu -->
-                    <nav class="mt-2">
-                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                            <!-- Add icons to the links using the .nav-icon class
-                        with font-awesome or any other icon font library -->
-                            <li class="nav-item has-treeview menu-open">
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link">
 
-                                <ul class="nav nav-treeview">
-                                    <li class="nav-item">
-                                        <a href="/Home/index" class="nav-link active">
-                                            <i class="fa fa-home nav-icon"></i>
-                                            <p>Ana Sayfa</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="/Home/TumVeriler" class="nav-link">
-                                            <i class="fa fa-table nav-icon"></i>
-                                            <p>Tüm Veriler</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                <img src="~/img/logo.png" alt="Türk Şeker" class="brand-image img-circle elevation-3"
+                     style="opacity: .8">
+                <span class="brand-text font-weight-light">Türk Şeker</span>
+            </a>
 
-                            <li class="nav-item has-treeview">
-                                <a href="#" class="nav-link">
-                                    <i class="nav-icon fa fa-industry"></i>
-                                    <p>
-                                        Fabrikalar
-                                        <i class="fas fa-angle-left right"></i>
-                                    </p>
-                                </a>
-                                <ul class="nav nav-treeview">
-                                    <li class="nav-item">
-                                        <a href="pages/tables/simple.html" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Burdur</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="pages/tables/data.html" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Ereğli</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="pages/tables/jsgrid.html" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Malatya</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="pages/tables/jsgrid.html" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Susurluk</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="pages/tables/jsgrid.html" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Yozgat</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
 
-                        </ul>
-                    </nav>
-                    <!-- /.sidebar-menu -->
-                </div>
-                <!-- /.sidebar -->
-            </aside>
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user panel (optional) --> 
+                <div class="info">  <a href="/Home/index" class="d-block">@User.Identity.Name</a></div> 
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
-            <!-- Content Wrapper. Contains page content -->
-            <div class="content-wrapper">
-                <!-- Content Header (Page header) -->
-                <div class="content-header">
-                    <div class="container-fluid">
-                        @RenderBody()
-                    </div><!-- /.container-fluid -->
-                </div>
-                <!-- /.content-header -->
+                        <li class="nav-item has-treeview menu-open">
 
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/Home/index" class="nav-link">
+                                        <i class="fa fa-home nav-icon"></i>
+                                        <p>Ana Sayfa</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/Home/TumVeriler" class="nav-link">
+                                        <i class="fa fa-table nav-icon"></i>
+                                        <p>Tüm Veriler</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa-industry"></i>
+                                <p>
+                                    Fabrikalar
+                                    <i class="fas fa-angle-left right"></i>
+                                    <span class="badge badge-info right">5</span>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="pages/tables/simple.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Burdur</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/tables/data.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Ereğli</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/tables/jsgrid.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Malatya</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/tables/jsgrid.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Susurluk</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/tables/jsgrid.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Yozgat</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+
+
+                <!-- /.sidebar-menu -->
             </div>
-            <!-- /.content-wrapper -->
-            <footer class="main-footer">
-                <strong>Copyright &copy;@DateTime.Now.Year  <a href="https://www.turkseker.gov.tr/?ModulID=3&MenuID=26">Türkiye Şeker Fabrikaları AŞ. - EMAF </a>.</strong>
-                Tüm Hakları Saklıdır.
-                <div class="float-right d-none d-sm-inline-block">
-                    <b>Versiyon</b> 1.0.0
-                </div>
-            </footer>
+            <!-- /.sidebar -->
+        </aside>
 
-            <!-- Control Sidebar -->
-            <aside class="control-sidebar control-sidebar-dark">
-                <!-- Control sidebar content goes here -->
-            </aside>
-            <!-- /.control-sidebar -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    @RenderBody()
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer">
+            <strong>Copyright &copy;@DateTime.Now.Year  <a href="https://www.turkseker.gov.tr/?ModulID=3&MenuID=26">Türkiye Şeker Fabrikaları AŞ. - EMAF </a>.</strong>
+            Tüm Hakları Saklıdır.
+            <div class="float-right d-none d-sm-inline-block">
+                <b>Versiyon</b> 1.0.0
+            </div>
+        </footer>
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
 
     </div>
-    <script src="~/Content/plugins/jquery/jquery.min.js"></script>
+
+    @*<script src="~/Content/kendo/js/jquery.min.js"></script>*@
     <!-- jQuery UI 1.11.4 -->
     <script src="~/Content/plugins/jquery-ui/jquery-ui.min.js"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
         $.widget.bridge('uibutton', $.ui.button)
+
+        var url = window.location;
+
+        // for sidebar menu entirely but not cover treeview
+        $('ul.nav-sidebar a').filter(function () {
+            return this.href == url;
+        }).addClass('active');
+
+        $('ul.nav-treeview a').filter(function () {
+
+            return this.href == url;
+        }).parentsUntil(".nav-sidebar > .nav-treeview").addClass('menu-open').prev('a').addClass('active');
     </script>
     <!-- Bootstrap 4 -->
     <script src="~/Content/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- ChartJS -->
     <script src="~/Content/plugins/chart.js/Chart.min.js"></script>
     <!-- Sparkline -->
-    <script src="~/Content/plugins/sparklines/sparkline.js"></script>
-    <!-- JQVMap -->
-    <script src="~/Content/plugins/jqvmap/jquery.vmap.min.js"></script>
-    <script src="~/Content/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    @section Scripts {
+        <script src="~/Content/plugins/sparklines/sparkline.js"></script>
+        <!-- JQVMap -->
+        <script src="~/Content/plugins/jqvmap/jquery.vmap.min.js"></script>
+
+        <script src="~/Content/plugins/jqvmap/maps/jquery.vmap.usa.js"></script> }
     <!-- jQuery Knob Chart -->
     <script src="~/Content/plugins/jquery-knob/jquery.knob.min.js"></script>
     <!-- daterangepicker -->
@@ -253,13 +257,14 @@
     <script src="~/Content/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
     <!-- AdminLTE App -->
     <script src="~/Content/dist/js/adminlte.js"></script>
-    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="~/Content/dist/js/pages/dashboard.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="~/Content/dist/js/demo.js"></script>
 
+
+
+
+
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>

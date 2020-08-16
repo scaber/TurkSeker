@@ -2,6 +2,8 @@
 
 namespace TurkSeker.Web.Controllers
 {
+
+    [Authorize(Roles = "Admin,Kullanici")]
     public class HomeController :  Controller
     {
         public ActionResult Index()
@@ -9,13 +11,7 @@ namespace TurkSeker.Web.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
+    
         public ActionResult TumVeriler()
         {
             ViewBag.Message = "Your contact page.";

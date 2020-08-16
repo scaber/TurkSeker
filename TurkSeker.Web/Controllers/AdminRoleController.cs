@@ -11,7 +11,7 @@ using TurkSeker.Web.Models;
 
 namespace TurkSeker.Web.Controllers
 {
-   [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")] 
     public class AdminRoleController : Controller
     {
         private RoleManager<IdentityRole> roleManager;
@@ -23,6 +23,7 @@ namespace TurkSeker.Web.Controllers
             userManager = new UserManager<Kullanici>(new UserStore<Kullanici>(new ModelTurkSeker()));
         }
         // GET: AdminRole
+        [Authorize(Roles = "Admin")]
         public ActionResult Index()
         {
             return View(roleManager.Roles);
@@ -33,6 +34,7 @@ namespace TurkSeker.Web.Controllers
             return View(); 
         } 
         [HttpPost]
+      
         public ActionResult Create(string name)
         {
             if (ModelState.IsValid)

@@ -11,11 +11,19 @@ namespace TurkSeker.Web
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                       "~/Content/kendo/js/jquery.min.js"));
+         "~/Content/kendo/js/jquery.min.js"));
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                     "~/Content/kendo/js/kendo.all.min.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+              "~/Content/kendo/js/cultures/kendo.culture.tr-TR.min.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+            "~/Content/kendo/js/messages/kendo.messages.tr-TR.min.js"));
+
+ 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
@@ -28,8 +36,14 @@ namespace TurkSeker.Web
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/plugins/fontawesome-free/css/all.min.css",
+                      "~/Content/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css",
+                      "~/Content/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
+                      "~/Content/plugins/jqvmap/jqvmap.min.css",
+                      "~/Content/dist/css/adminlte.min.css",
+                      "~/Content/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",
+                      "~/Content/plugins/daterangepicker/daterangepicker.css",
+                      "~/Content/plugins/summernote/summernote-bs4.css"));
         }
     }
 }

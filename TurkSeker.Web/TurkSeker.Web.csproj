@@ -316,9 +316,17 @@
     <Content Include="Content\dist\js\pages\dashboard.js" />
     <Content Include="Content\dist\js\pages\dashboard2.js" />
     <Content Include="Content\dist\js\pages\dashboard3.js" />
+    <Content Include="Content\kendo\css\kendo.common-bootstrap.min.css" />
+    <Content Include="Content\kendo\css\kendo.common.min.css" />
     <Content Include="Content\kendo\css\kendo.default-v2.min.css" />
+    <Content Include="Content\kendo\css\kendo.default-v3.min.css" />
+    <Content Include="Content\kendo\js\cultures\kendo.culture.tr-CY.min.js" />
+    <Content Include="Content\kendo\js\cultures\kendo.culture.tr-TR.min.js" />
+    <Content Include="Content\kendo\js\cultures\kendo.culture.tr.min.js" />
     <Content Include="Content\kendo\js\jquery.min.js" />
+    <Content Include="Content\kendo\js\jszip.min.js" />
     <Content Include="Content\kendo\js\kendo.all.min.js" />
+    <Content Include="Content\kendo\js\messages\kendo.messages.tr-TR.min.js" />
     <Content Include="Content\kendo\js\Turkce.min.js" />
     <Content Include="Content\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
     <Content Include="Content\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css" />

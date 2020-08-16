@@ -2,12 +2,16 @@
     ViewBag.Title = "Tüm Veriler";
 }
 
-
-
 <link href="~/Content/kendo/css/kendo.default-v2.min.css" rel="stylesheet" />
+@*<link href="~/Content/kendo/css/kendo.common.min.css" rel="stylesheet" />*@
+@*<link href="~/Content/kendo/css/kendo.common-bootstrap.min.css" rel="stylesheet" />*@
+
+ 
+
+<script src="~/Content/kendo/js/jszip.min.js"></script>
 <script src="~/Content/kendo/js/jquery.min.js"></script>
 <script src="~/Content/kendo/js/kendo.all.min.js"></script>
-<script src="~/Content/kendo/js/Turkce.min.js"></script>
+
 
 <div id="example">
     <div id="grid"></div>
@@ -65,8 +69,8 @@
                 sortable: true,
                 pageable: {
                     refresh: true,
-                    pageSizes: [20, 50, 100,500, 1000,5000],
-                    buttonCount: 5
+                    pageSizes: [20, 50, 100, 500, 1000, 5000],
+                    buttonCount: 3
                 },
                 columns: [
                     {
@@ -91,15 +95,15 @@
                     {
                         field: "Raf_bek_sek",
                         title: "Rafineriden Beklenen Şeker",
-                        width: 200, format: "{0:n2}"
+                        width: 200, format: "{0:n3}"
                     },
                     {
                         field: "Ham_bek_sek",
-                        title: "Ham Fabrikadan Beklenen Şeker", width: 250, format: "{0:n}"
+                        title: "Ham Fabrikadan Beklenen Şeker", width: 250, format: "{0:n3}"
                     },
                     {
                         field: "Top_bek_sek",
-                        title: "Toplam Beklenen Şeker", width: 250
+                        title: "Toplam Beklenen Şeker", width: 250, format: "{0:n3}"
                     },
                     {
                         field: "Bugun_cik_sek",
@@ -186,4 +190,5 @@
 
         }
     </script>
-</div> 
+</div>
+
