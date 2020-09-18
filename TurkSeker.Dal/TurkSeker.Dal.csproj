@@ -105,6 +105,10 @@
     <Compile Include="Migrations\202008131748112_test4.designer.cs">
       <DependentUpon>202008131748112_test4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008201912154_ObjectID.cs" />
+    <Compile Include="Migrations\202008201912154_ObjectID.designer.cs">
+      <DependentUpon>202008201912154_ObjectID.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelTurkSeker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -146,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008131748112_test4.resx">
       <DependentUpon>202008131748112_test4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008201912154_ObjectID.resx">
+      <DependentUpon>202008201912154_ObjectID.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

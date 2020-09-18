@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http.Cors;
 using System.Web.Mvc;
 using TurkSeker.Dal;
 using TurkSeker.Dal.Db;
@@ -19,7 +20,7 @@ namespace TurkSeker.Web.Controllers.Api
         public IQueryable<RsGenelMd> Get()
         {
             var veri = (from gm in db.GenelMd
-                        join f in db.Fabrikas on gm.FabrikaId equals f.Id
+                        join f in db.Fabrikas on gm.FabrikaId equals f.Id  
                         select new RsGenelMd
                         {
                             Id = gm.Id,
@@ -44,5 +45,6 @@ namespace TurkSeker.Web.Controllers.Api
            // var veri1 = db.GenelMd;
             return veri;
         }
+     
     }
 }

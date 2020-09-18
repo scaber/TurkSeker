@@ -20,22 +20,24 @@
     <div id="grid"></div>
     <script>
         $(document).ready(function () {
+            $('.nav-link').on('click', function () {
+
+                setTimeout(function () { $("#grid").resize(); }, 1200);
+            });
             $("#grid").kendoGrid({
                 dataSource: {
-
                     type: "odata-v4",
                     transport: {
                         read: {
                             url: "/api/Fabrikas",
                             dataType: "json",
                             data: {
-                                $expand: "Genelmds($top = 1; $orderby=Id desc)"
+                                $expand: "Genelmds($Count=true;$top = 1; $orderby=Id desc)"
                             }
-                        }
-
+                        },
                     },
+                    //  filter: { field: "Genelmds[0]", operator: "ne", value: null },
                     //filter: { field: "FabrikaId", operator: "startswith", value: "Jane" },
-
                     schema: {
                         model: {
                             fields: {
@@ -78,7 +80,7 @@
                 columns: [
                     {
                         field: "Id",
-                        title: "Id", width: 250
+                        title: "Id", width: 250, hidden: true
                     },
                     {
                         field: "FabrikaAdi",
@@ -87,66 +89,94 @@
                     }
                     ,
                     {
-                        field: "Genelmds", template: "#=kendo.toString(kendo.parseDate(Genelmds[0].Kayit_tar_saat,'yyyy-MM-ddTHH:mm:ss'), 'dd/MM/yyyy HH:mm')#",
+                        field: "Genelmds", template: "#= (Genelmds[0] != null) ? kendo.toString(kendo.parseDate(Genelmds[0].Kayit_tar_saat,'yyyy-MM-ddTHH:mm:ss'), 'dd/MM/yyyy HH:mm'):'' #",
                         type: "date",
                         title: "Tarih", width: 340,
+
                     },
                     {
                         field: "Genelmds[0].Raf_bek_sek",
                         title: "Rafineriden Beklenen Şeker",
-                        width: 200, format: "{0:n3}"
+                        width: 200, format: "{0:n3}",
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Raf_bek_sek: 0 #"
                     },
                     {
                         field: "Genelmds[0].Ham_bek_sek",
-                        title: "Ham Fabrikadan Beklenen Şeker", width: 250, format: "{0:n3}"
+                        title: "Ham Fabrikadan Beklenen Şeker", width: 250, format: "{0:n3}",
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Ham_bek_sek: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Top_bek_sek",
-                        title: "Toplam Beklenen Şeker", width: 250, format: "{0:n3}"
+                        title: "Toplam Beklenen Şeker", width: 250, format: "{0:n3}",
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Top_bek_sek: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Bugun_cik_sek",
-                        title: "Çuvallama Kantarından Bugün Çıkan Şeker(kg)", width: 350 
+                        title: "Çuvallama Kantarından Bugün Çıkan Şeker(kg)", width: 350,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Bugun_cik_sek: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Dun_cik_sek",
-                        title: "Çuvallama Kantarından Dün Çıkan Şeker(kg)", width: 350 
+                        title: "Çuvallama Kantarından Dün Çıkan Şeker(kg)", width: 350,
+
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Dun_cik_sek: 0 #"
                     },
                     {
                         field: "Genelmds[0].Kiyim1_anlik_ton",
-                        title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250 
+                        title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Kiyim1_anlik_ton: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Kiyim2_anlik_ton",
-                        title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250, format: "{0:n3}"
+                        title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250, format: "{0:n3}",
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Kiyim2_anlik_ton: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Kiyim3_anlik_ton",
-                        title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250, format: "{0:n3}"
+                        title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250, format: "{0:n3}",
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Kiyim3_anlik_ton: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Bugun_kes_pan",
-                        title: "Toplam Bugün Kesilen Pancar", width: 250
+                        title: "Toplam Bugün Kesilen Pancar", width: 250,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Bugun_kes_pan: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Dun_kes_pan",
-                        title: "Toplam Dün Kesilen Pancar", width: 250
+                        title: "Toplam Dün Kesilen Pancar", width: 250,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Dun_kes_pan: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].Kiyim_polu",
-                        title: "Kıyım Polü", width: 100
+                        title: "Kıyım Polü", width: 100,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Kiyim_polu: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].ToplamPancar",
-                        title: "Toplam Pancar", width: 200
+                        title: "Toplam Pancar", width: 200,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].ToplamPancar: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].BugunGelenPancar",
-                        title: "Bugün Gelen Pancar", width: 200
+                        title: "Bugün Gelen Pancar", width: 200,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].BugunGelenPancar: 0 #"
+
                     },
                     {
                         field: "Genelmds[0].KantardakiPancar",
-                        title: "Kantardaki Pancar", width: 200
+                        title: "Kantardaki Pancar", width: 200,
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].KantardakiPancar: 0 #"
+
                     }
                 ]
             });

@@ -8,7 +8,7 @@ namespace TurkSeker.Dal
     {
         public ModelTurkSeker() : base("name=ModelTurkSeker")
         {
-
+            Database.SetInitializer<ModelTurkSeker>(new CreateDatabaseIfNotExists<ModelTurkSeker>());
         }   
         public virtual DbSet<genelmd> GenelMd { get; set; }
         public virtual DbSet<Fabrika> Fabrikas { get; set; }

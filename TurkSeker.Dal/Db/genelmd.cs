@@ -13,6 +13,7 @@ namespace TurkSeker.Dal.Db
     {
         [Key]
         public int Id { get; set; }
+        public int ObjectId { get; set; }
         public int? FabrikaId { get; set; }  
         public DateTime Kayit_tar_saat { get; set; } 
         public double? Kiyim1_anlik_ton { get; set; } 

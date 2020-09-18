@@ -14,6 +14,7 @@ namespace TurkSeker.Web
     {
         protected void Application_Start()
         {
+      
             AreaRegistration.RegisterAllAreas();
           //  GlobalConfiguration.Configure(WebApiConfig.Register);
             GlobalConfiguration.Configure(config =>
@@ -25,6 +26,8 @@ namespace TurkSeker.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+
         }
     }
 }
