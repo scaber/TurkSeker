@@ -4,6 +4,46 @@
     Layout = null;
 }
 <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<script src="https://kit.fontawesome.com/3133cb4db7.js" crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <img src="~/img/seker_logo_dikdortgen.png" width="300" class="navbar-brand" alt="">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-sm-auto">
+                <li class="nav-item">
+                    <img src="~/img/EMAFLOG.png" width="300" alt="">
+                </li>
+            </ul>
+        </div>
+    </nav> 
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="loginBox">
+        <img src="~/img/user.jpg" class="user">
+        <h2> Giriş Yap</h2>
+        <form>
+            <input type="hidden" name="returnUrl" value=@Request.QueryString["returnUrl"] />
+            <div class="form-group">
+                <p>Kullanıcı Adı</p>
+                @Html.TextBoxFor(i => i.UserName, new { @required = "required", @type = "text", @class = "form-control" })
+                @Html.ValidationMessage("UserName", "Kullanıcı Girmelisiniz", new { @class = "text-danger" })
+
+            </div>
+            <div class="form-group">
+                <p>Şifre</p>
+                @Html.PasswordFor(i => i.Password, new { @required = "required", @type = "password", @class = "form-control" })
+                @Html.ValidationMessage("Password", "Parola Girmelisiniz", new { @class = "text-danger" }) 
+            </div>
+            <input type="submit" name="" value="Giriş Yap">
+  
+        </form>
+    </div>
+
+}
+
 <style>
     body {
         margin: 0;
@@ -14,14 +54,16 @@
         background-position: right;
         height: 100vh;
     }
-
+    .bg-light {
+        background-color: #f8f9fa !important;
+    }
     .loginBox {
         position: absolute;
         top: 60%;
         left: 50%;
         transform: translate(-50%,-50%);
         width: 350px;
-        height: 400px;
+        height: 440px;
         padding: 80px 40px;
         box-sizing: border-box;
         background: rgba(0,0,0,.5);
@@ -67,10 +109,9 @@
             font-size: 16px;
         }
 
-    ::placeholder {
+     .placeholder {
         color: rgba(255,255,255,.8)
     }
-
     .loginBox input[type="submit"] {
         border: none;
         outline: none;
@@ -87,43 +128,50 @@
             background: #efed40;
             color: #262626;
         }
-</style>
-<script src="https://kit.fontawesome.com/3133cb4db7.js" crossorigin="anonymous"></script>
-@*<nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <img src="~/img/seker_logo_dikdortgen.png" width="300" class="navbar-brand" alt="">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-sm-auto">
-                <li class="nav-item">
-                    <img src="~/img/EMAFLOG.png" width="300" alt="">
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <hr />*@
 
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
 
-    <div class="loginBox">
-        <img src="~/img/user.jpg" class="user">
-        <h2> Giriş Yap</h2>
-        <form>
-            <input type="hidden" name="returnUrl" value=@Request.QueryString["returnUrl"] />
-            <div class="form-group">
-                <p>Kullanıcı Adı</p>
-                @Html.TextBoxFor(i => i.UserName, new { @required = "required", @type = "text", @class = "form-control" })
-                @Html.ValidationMessage("UserName", "Kullanıcı Girmelisiniz", new { @class = "text-danger" })
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: auto;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+    }
 
-            </div>
-            <div class="form-group">
-                <p>Şifre</p>
-                @Html.PasswordFor(i => i.Password, new { @required = "required", @type = "password", @class = "form-control" })
-                @Html.ValidationMessage("Password", "Parola Girmelisiniz", new { @class = "text-danger" }) 
-            </div>
-            <input type="submit" name="" value="Giriş Yap">
-  
-        </form>
-    </div>
-
+ 
+.navbar-expand-sm .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
 }
+    .ml-sm-auto, .mx-sm-auto {
+        margin-left: auto !important;
+    }
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+</style>
