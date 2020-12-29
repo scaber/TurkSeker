@@ -12,7 +12,7 @@ namespace TurkSeker.Dto.Results
         public int Id { get; set; }
         public int? FabrikaId { get; set; }
         public string FabrikaAdi{ get; set; }
-        public DateTime Kayit_tar_saat { get; set; }
+        public DateTime? Kayit_tar_saat { get; set; }
         public double? Kiyim1_anlik_ton { get; set; }
         public double? Kiyim2_anlik_ton { get; set; }
         public double? Kiyim3_anlik_ton { get; set; }
