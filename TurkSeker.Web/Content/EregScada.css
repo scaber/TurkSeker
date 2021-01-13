@@ -1,0 +1,3281 @@
+﻿@media (min-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+    .Eregstandartdeposeviye {
+        display: none;
+    }
+
+    .Eregortadeposeviye {
+        display: none;
+    }
+
+    .Eregkristalyesildeposeviye {
+        display: none;
+    }
+
+
+
+    .Eregkristalbeyazdeposeviye {
+        display: none;
+    }
+
+    .EregA1seviye {
+        display: none;
+    }
+
+    .EregA1Bx {
+        display: none;
+    }
+
+    .EregA2seviye {
+        display: none;
+    }
+
+    .EregA2Bx {
+        display: none;
+    }
+
+    .EregA3seviye {
+        display: none;
+    }
+
+    .EregA3Bx {
+        display: none;
+    }
+
+    .EregA4seviye {
+        display: none;
+    }
+
+    .EregA4Bx {
+        display: none;
+    }
+
+    .EregA5seviye {
+        display: none;
+    }
+
+    .EregA5Bx {
+        display: none;
+    }
+
+    .EregA6seviye {
+        display: none;
+    }
+
+    .EregA6Bx {
+        display: none;
+    }
+    .EregA7seviye {
+        display: none;
+    }
+
+    .EregA7Bx {
+        display: none;
+    }
+    .EregA8seviye {
+        display: none;
+    }
+
+    .EregA8Bx {
+        display: none;
+    }
+    .EregA9seviye {
+        display: none;
+    }
+
+    .EregA9Bx {
+        display: none;
+    }
+    .EregAB10seviye {
+        display: none;
+    }
+
+    .EregAB10Bx {
+        display: none;
+    }
+
+    .EregB1seviye {
+        display: none;
+    }
+
+    .EregB1Bx {
+        display: none;
+    }
+
+    .EregB2seviye {
+        display: none;
+    }
+
+    .EregB2Bx {
+        display: none;
+    }
+
+    .EregB3seviye {
+        display: none;
+    }
+
+    .EregB3Bx {
+        display: none;
+    }
+    .EregB4seviye {
+        display: none;
+    }
+
+    .EregB4Bx {
+        display: none;
+    }
+    .EregB5seviye {
+        display: none;
+    }
+
+    .EregB5Bx {
+        display: none;
+    }
+
+
+
+
+    .EregC1seviye {
+        display: none;
+    }
+
+    .EregC1Bx {
+        display: none;
+    }
+    .EregC2seviye {
+        display: none;
+    }
+
+    .EregC2Bx {
+        display: none;
+    }
+    .EregC3seviye {
+        display: none;
+    }
+
+    .EregC3Bx {
+        display: none;
+    }
+
+    .EregC4seviye {
+        display: none;
+    }
+
+    .EregC4Bx {
+        display: none;
+    }
+    .EregC5seviye {
+        display: none;
+    }
+
+    .EregC5Bx {
+        display: none;
+    }
+
+    .EregC6seviye {
+        display: none;
+    }
+
+    .EregC6Bx {
+        display: none;
+    }
+
+
+
+
+
+    .EregDifuzyonKule1sev {
+        display: none;
+    }
+
+    .EregDifuzyonKule1ph {
+        display: none;
+    }
+
+    .EregDifuzyonKule1Devir {
+        display: none;
+    }
+
+    .EregDifuzyonKule1Akim {
+        display: none;
+    }
+
+    .EregDifuzyonKule2sev {
+        display: none;
+    }
+
+    .EregDifuzyonKule2ph {
+        display: none;
+    }
+
+    .EregDifuzyonKule2Devir {
+        display: none;
+    }
+
+    .EregDifuzyonKule2Akim {
+        display: none;
+    }
+
+    .EregKiyim1Tonaj {
+        display: none;
+    }
+
+    .EregKiyim2Tonaj {
+        display: none;
+    }
+
+    .EregHaslama1sev {
+        display: none;
+    }
+
+    .EregHaslama2sev {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .Eregstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Eregortadeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Eregkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 58%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .Eregkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 14.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 14.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 22%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 22%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 29.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 29.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 37%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 37%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .EregA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 44%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 44%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .EregA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 51.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 51.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .EregA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .EregA8seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 66.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA8Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 66.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .EregA9seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 74%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregA9Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 74%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .EregAB10seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregAB10Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    .EregB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 14%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 14%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 21.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 21.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 29%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 29%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 36.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregB5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 36.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .EregC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 67.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 67.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 15%;
+        left: 89.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregC6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 89.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 59%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 59%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .EregHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Eregstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Eregortadeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 33%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Eregkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+    .Eregkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 85%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+
+    .EregA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 14.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 14.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    
+    .EregA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 22%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 22%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .EregA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 29.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 29.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .EregA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 37%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 37%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .EregA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 44%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 44%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .EregA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 51.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 51.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .EregA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .EregA8seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 66.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA8Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 66.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .EregA9seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 74%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregA9Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 74%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregAB10seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 53%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregAB10Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+    .EregB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 6.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 6.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 13.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 13.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 21%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 21%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 28.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 28.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 36%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregB5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 36%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+    .EregC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 52%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 52%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 59.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 59.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 67%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 67%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 81.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 81.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 16%;
+        left: 89%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregC6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 89%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 76%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .EregHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+
+    
+
+}
+
+@media (min-width: 1600px) {
+    .Eregstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Eregortadeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 34%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Eregkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+    .Eregkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 86%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+
+    .EregA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .EregA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 23%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 23%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 30.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 30.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA8seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 67.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA8Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 67.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA9seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregA9Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregAB10seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 54%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregAB10Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .EregB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 7.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 7.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 14.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 14.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 22%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 22%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 29.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 29.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 37%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregB5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 37%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+    .EregC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 53%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 53%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 60.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 60.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 68%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 68%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 75.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 75.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 82.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 82.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 90%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregC6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 90%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 76%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .EregHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .Eregstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Eregortadeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Eregkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 58%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Eregkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+   
+    .EregA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 22.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 22.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .EregA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 30%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 30%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .EregA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 37.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 37.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .EregA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 44.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 44.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .EregA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 52%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 52%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .EregA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 59.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 59.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .EregA8seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 67%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA8Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 67%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA9seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregA9Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    .EregAB10seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 55%;
+        left: 81.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregAB10Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 81.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+
+    .EregB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 14%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 14%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 21.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 21.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 29%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 29%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 36.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregB5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 36.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+
+    .EregC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 67.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 67.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 17%;
+        left: 89.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregC6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 12%;
+        left: 89.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .EregHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    
+}

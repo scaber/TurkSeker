@@ -108,9 +108,10 @@
                     },
                     {
                         field: "Genelmds[0].Top_bek_sek",
+                        //field:"Genelmds[0].Ham_bek_sek "+" Genelmds[0].Raf_bek_sek",
                         title: "Toplam Beklenen Şeker", width: 250, format: "{0:n3}",
-                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Top_bek_sek: 0 #"
-
+                        //template: "#= (Genelmds[0] != null) ? Genelmds[0].Top_bek_sek: 0 #"
+                        template: "#= (Genelmds[0] != null) ? Genelmds[0].Ham_bek_sek + Genelmds[0].Raf_bek_sek: 0 #"
                     },
                     {
                         field: "Genelmds[0].Bugun_cik_sek",
@@ -126,19 +127,19 @@
                     },
                     {
                         field: "Genelmds[0].Kiyim1_anlik_ton",
-                        title: "Kıyım Kantarı 1 Anlık Değeri(saat/ton)", width: 250,
+                        title: "Kıyım Kantarı 1 Anlık Değeri(ton/saat)", width: 250,
                         template: "#= (Genelmds[0] != null) ? Genelmds[0].Kiyim1_anlik_ton: 0 #"
 
                     },
                     {
                         field: "Genelmds[0].Kiyim2_anlik_ton",
-                        title: "Kıyım Kantarı 2 Anlık Değeri(saat/ton)", width: 250, format: "{0:n3}",
+                        title: "Kıyım Kantarı 2 Anlık Değeri(ton/saat)", width: 250, format: "{0:n3}",
                         template: "#= (Genelmds[0] != null) ? Genelmds[0].Kiyim2_anlik_ton: 0 #"
 
                     },
                     {
                         field: "Genelmds[0].Kiyim3_anlik_ton",
-                        title: "Kıyım Kantarı 3 Anlık Değeri(saat/ton)", width: 250, format: "{0:n3}",
+                        title: "Kıyım Kantarı 3 Anlık Değeri(ton/saat)", width: 250, format: "{0:n3}",
                         template: "#= (Genelmds[0] != null) ? Genelmds[0].Kiyim3_anlik_ton: 0 #"
 
                     },
@@ -162,19 +163,19 @@
                     },
                     {
                         field: "Genelmds[0].ToplamPancar",
-                        title: "Toplam Pancar", width: 200,
+                        title: "Toplam Pancar (ton)", width: 200,
                         template: "#= (Genelmds[0] != null) ? Genelmds[0].ToplamPancar: 0 #"
 
                     },
                     {
                         field: "Genelmds[0].BugunGelenPancar",
-                        title: "Bugün Gelen Pancar", width: 200,
+                        title: "Bugün Gelen Pancar (ton)", width: 200,
                         template: "#= (Genelmds[0] != null) ? Genelmds[0].BugunGelenPancar: 0 #"
 
                     },
                     {
                         field: "Genelmds[0].KantardakiPancar",
-                        title: "Kantardaki Pancar", width: 200,
+                        title: "Fire(%)", width: 200,
                         template: "#= (Genelmds[0] != null) ? Genelmds[0].KantardakiPancar: 0 #"
 
                     }

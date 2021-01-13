@@ -14,6 +14,9 @@ namespace TurkSeker.Web
 
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
          "~/Content/kendo/js/jquery.min.js"));
+
+ 
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                     "~/Content/kendo/js/kendo.all.min.js"));
 

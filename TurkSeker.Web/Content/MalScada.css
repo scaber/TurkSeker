@@ -1,0 +1,2552 @@
+﻿@media (min-width: 576px) {
+    
+}
+
+@media (max-width: 768px) {
+   
+}
+@media (max-width: 992px) {
+
+    .Fabrika{
+
+        display:none;
+    }
+    .Malstandartdeposeviye {
+        display: none;
+    }
+
+    .Malkristalyesildeposeviye {
+        display: none;
+    }
+
+    .Malkristalyesilbeyazdeposeviye {
+        display: none;
+    }
+
+    .Malkristalbeyazdeposeviye {
+        display: none;
+    }
+
+    .MalA1seviye {
+        display: none;
+    }
+
+    .MalA1Bx {
+        display: none;
+    }
+
+    .MalA2seviye {
+        display: none;
+    }
+
+    .MalA2Bx {
+        display: none;
+    }
+
+    .MalA3seviye {
+        display: none;
+    }
+
+    .MalA3Bx {
+        display: none;
+    }
+
+    .MalA4Seviye {
+        display: none;
+    }
+
+    .MalA4Bx {
+        display: none;
+    }
+    .MalB1seviye {
+        display: none;
+    }
+
+    .MalB1Bx {
+        display: none;
+    }
+
+    .MalB2seviye {
+        display: none;
+    }
+
+    .MalB2Bx {
+        display: none;
+    }
+
+    .MalB3seviye {
+        display: none;
+    }
+
+    .MalB3Bx {
+        display: none;
+    }
+
+    .MalB4seviye {
+        display: none;
+    }
+
+    .MalB4Bx {
+        display: none;
+    }
+    .MalC1seviye {
+        display: none;
+    }
+
+    .MalC1Bx {
+        display: none;
+    }
+    .MalC2seviye {
+        display: none;
+    }
+
+    .MalC2Bx {
+        display: none;
+    }
+    .MalC3seviye {
+        display: none;
+    }
+
+    .MalC3Bx {
+        display: none;
+    }
+    .MalC4seviye {
+        display: none;
+    }
+
+    .MalC4Bx {
+        display: none;
+    }
+
+    .MalKrstalRefSev1 {
+        display: none;
+    }
+    .MalKrstalRefSev2 {
+        display: none;
+    }
+    .MalOrtaRefSev1 {
+        display: none;
+    }
+
+    .MalOrtaRefSev2 {
+        display: none;
+    }
+    .MalOrtaRefSev3 {
+        display: none;
+    }
+    .MalSonTevSev {
+        display: none;
+    }
+    .MalDifuzyonKule1sev {
+        display: none;
+    }
+    .MalDifuzyonKule1ph {
+        display: none;
+    }
+
+    .MalDifuzyonKule1Devir {
+        display: none;
+    }
+    .MalDifuzyonKule1Akim {
+        display: none;
+    }
+
+    .MalDifuzyonKule2sev {
+        display: none;
+    }
+
+    .MalDifuzyonKule2ph {
+        display: none;
+    }
+    .MalDifuzyonKule2Devir {
+        display: none;
+    }
+
+    .MalDifuzyonKule2Akim {
+        display: none;
+    }
+
+    .MalKiyim1Tonaj {
+        display: none;
+    }
+    .MalKiyim2Tonaj {
+        display: none;
+    }
+    .MalHaslama1sev {
+        display: none;
+    }
+    .MalHaslama2sev {
+        display: none;
+    }
+
+
+    
+}
+
+@media (min-width: 992px) {
+    .Malstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 6%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Malkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 30%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Malkristalyesilbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Malkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 2.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 2.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalA4Seviye{
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 25%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 25%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 78%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 78%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 85%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 85%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 92.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 92.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalKrstalRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 3.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalKrstalRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 18.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalOrtaRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalOrtaRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalOrtaRefSev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 62.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalSonTevSev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 60%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 60%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    .MalKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .MalHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 7%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .MalHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 7%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .Malstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 6%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Malkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Malkristalyesilbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Malkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA4Seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 26%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 26%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+    .MalB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 46%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 46%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 53.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 53.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 61%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 61%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 71%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 71%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 78.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 78.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .MalC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 86%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 86%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .MalC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 93.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 93.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalKrstalRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalKrstalRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalOrtaRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalOrtaRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalOrtaRefSev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 62.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .MalSonTevSev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 67%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 63%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 67%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 63%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43.5%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43.5%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .MalHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .MalHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .Malstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Malkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Malkristalyesilbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Malkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 2%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 2%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA4Seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 25%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 25%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .MalB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 77.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 77.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 85%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 85%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 49%;
+        left: 92.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 92.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalKrstalRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 3.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalKrstalRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 18.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalOrtaRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10.5%;
+        left: 32.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalOrtaRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10.5%;
+        left: 55%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalOrtaRefSev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10.5%;
+        left: 63%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalSonTevSev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 63%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 82%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 63%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 82%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .MalHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .Malstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 6%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Malkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Malkristalyesilbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Malkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 2%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 2%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalA4Seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 25%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 25%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 45%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 52.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 77.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 77.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 85%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 85%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 51%;
+        left: 92.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 92.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalKrstalRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 3.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalKrstalRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 18.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalOrtaRefSev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10.5%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalOrtaRefSev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10.5%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalOrtaRefSev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10.5%;
+        left: 62.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalSonTevSev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .MalHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .MalHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,2507 @@
+﻿@media (min-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+    .Yozstandartdeposeviye {
+        display: none;
+    }
+
+    .Yozstandartdeposeviye2 {
+        display: none;
+    }
+
+    .Yozkristalyesildeposeviye {
+        display: none;
+    }
+
+   
+
+    .Yozkristalbeyazdeposeviye {
+        display: none;
+    }
+
+    .YozA1seviye {
+        display: none;
+    }
+
+    .YozA1Bx {
+        display: none;
+    }
+
+    .YozA2seviye {
+        display: none;
+    }
+
+    .YozA2Bx {
+        display: none;
+    }
+
+    .YozA3seviye {
+        display: none;
+    }
+
+    .YozA3Bx {
+        display: none;
+    }
+
+    .YozA4Seviye {
+        display: none;
+    }
+
+    .YozA4Bx {
+        display: none;
+    }
+
+    .YozB1seviye {
+        display: none;
+    }
+
+    .YozB1Bx {
+        display: none;
+    }
+
+    .YozB2seviye {
+        display: none;
+    }
+
+    .YozB2Bx {
+        display: none;
+    }
+
+    .YozB3seviye {
+        display: none;
+    }
+
+    .YozB3Bx {
+        display: none;
+    }
+
+    
+
+    .YozC1seviye {
+        display: none;
+    }
+
+    .YozC1Bx {
+        display: none;
+    }
+
+    .YozC2seviye {
+        display: none;
+    }
+
+    .YozC2Bx {
+        display: none;
+    }
+
+    .YozC3seviye {
+        display: none;
+    }
+
+    .YozC3Bx {
+        display: none;
+    }
+
+    
+
+    .YozKrstalRefsev1 {
+        display: none;
+    }
+
+    .YozKrstalRefsev2 {
+        display: none;
+    }
+    .YozKrstalRefsev3 {
+        display: none;
+    }
+    .YozKrstalRefsev4 {
+        display: none;
+    }
+
+    .YozOrtaRefsev1 {
+        display: none;
+    }
+
+    .YozOrtaRefsev2 {
+        display: none;
+    }
+
+    .YozOrtaRefsev3 {
+        display: none;
+    }
+
+    .YozSonTevsev {
+        display: none;
+    }
+
+    .YozDifuzyonKule1sev {
+        display: none;
+    }
+
+    .YozDifuzyonKule1ph {
+        display: none;
+    }
+
+    .YozDifuzyonKule1Devir {
+        display: none;
+    }
+
+    .YozDifuzyonKule1Akim {
+        display: none;
+    }
+
+    .YozDifuzyonKule2sev {
+        display: none;
+    }
+
+    .YozDifuzyonKule2ph {
+        display: none;
+    }
+
+    .YozDifuzyonKule2Devir {
+        display: none;
+    }
+
+    .YozDifuzyonKule2Akim {
+        display: none;
+    }
+
+    .YozKiyim1Tonaj {
+        display: none;
+    }
+
+    .YozKiyim2Tonaj {
+        display: none;
+    }
+
+    .YozHaslama1sev {
+        display: none;
+    }
+
+    .YozHaslama2sev {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .Yozstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 6%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Yozstandartdeposeviye2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Yozkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Yozkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 2.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 2.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    .YozA4Seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 24.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 24.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+
+    .YozB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 40%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 40%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 47.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 47.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 55%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 55%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    
+
+    .YozC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 73.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 73.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 88%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 88%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozKrstalRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 3.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozKrstalRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozKrstalRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 18.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozKrstalRefsev4 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 26%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+
+
+    .YozOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 49%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozOrtaRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 56.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozSonTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 21%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 59%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 59%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    .YozKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .YozHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Yozstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 6%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Yozstandartdeposeviye2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Yozkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Yozkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA4Seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 25.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 25.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+    .YozB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 48.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 48.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+   
+
+    .YozC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 89%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 89%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+    .YozKrstalRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozKrstalRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 10.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozKrstalRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 18.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozKrstalRefsev4 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 26%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+
+    .YozOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 49%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozOrtaRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 56.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozSonTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .YozHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .Yozstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Yozstandartdeposeviye2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Yozkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 58%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Yozkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 77%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA4Seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 25.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 25.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .YozB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 48.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 48.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+    .YozC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 74.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 89%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 89%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozKrstalRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 3.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozKrstalRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozKrstalRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 19%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozKrstalRefsev4 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 26.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+
+    .YozOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 41.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 49.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozOrtaRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozSonTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 81%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 81%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .YozHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .Yozstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 6%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Yozstandartdeposeviye2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Yozkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Yozkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 2%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 2%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .YozA4Seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 24.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 24.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    
+
+    .YozB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 40%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 40%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 47.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 47.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 55%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 55%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    
+
+    .YozC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 73.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 73.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 81%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 88%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 88%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .YozKrstalRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 3.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozKrstalRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 11%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozKrstalRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 18.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozKrstalRefsev4 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 26%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+
+
+    .YozOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 49%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozOrtaRefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozSonTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 83%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .YozHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+}

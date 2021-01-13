@@ -1,0 +1,234 @@
+﻿
+@using TurkSeker.Dto.Results;
+@model RsFabrika
+@{
+
+
+}
+@*<script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <script src="~/Scripts/jquery.datetimepicker.full.min.js"></script>
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>*@
+@* <script src="~/Scripts/jquery.validate.min.js"></script>*@
+
+@* <link href="~/Content/jquery.datetimepicker.min.css" rel="stylesheet" type="text/css" />*@
+<link href="~/Content/MalScada.css" rel="stylesheet" />
+<link href="~/Content/YozScada.css" rel="stylesheet" />
+<link href="~/Content/EregScada.css" rel="stylesheet" />
+<link href="~/Content/SusurlukScada.css" rel="stylesheet" />
+<link href="~/Content/BurdurScada.css" rel="stylesheet" />
+<style>
+    h2 {
+        text-align: center;
+    }
+</style>
+
+
+
+
+@if (Model.Id == 1)
+{
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2 class="Fabrika">@Model.FabrikaAdi Şeker Fabrikası-Rafineri Otomasyon</h2>
+                <img class="d-block w-100" src="~/img/BURDUR_RAF1.PNG" alt="First slide">
+                <span class="burstandartdeposeviye">Seviye:%@ViewBag.burdurScada.burstandartdeposeviye</span>
+                <span class="burortasurupdeposeviye">Seviye:%@ViewBag.burdurScada.burortasurupdeposeviye</span>
+                <span class="burkristalyesildeposeviye">Seviye:%@ViewBag.burdurScada.burkristalyesildeposeviye</span>
+                <span class="burkristalbeyazdeposeviye">Seviye:%@ViewBag.burdurScada.burkristalbeyazdeposeviye</span>
+                <span class="burA1seviye">%@ViewBag.burdurScada.burA1seviye</span>
+                <span class="burA1Bx">@ViewBag.burdurScada.burA1Bx Bx</span>
+                <span class="burA2seviye">%@ViewBag.burdurScada.burA2seviye</span>
+                <span class="burA2Bx">@ViewBag.burdurScada.burA2Bx Bx</span>
+                <span class="burA3seviye">%@ViewBag.burdurScada.burA3seviye</span>
+                <span class="burA3Bx">@ViewBag.burdurScada.burA3Bx Bx</span>
+                <span class="burA4seviye">%@ViewBag.burdurScada.burA4seviye</span>
+                <span class="burA4Bx">@ViewBag.burdurScada.burA4Bx Bx</span>
+                <span class="burA5seviye">%@ViewBag.burdurScada.burA5seviye </span>
+                <span class="burA5Bx">@ViewBag.burdurScada.burA5Bx Bx</span>
+                <span class="burA6seviye">%@ViewBag.burdurScada.burA6seviye</span>
+                <span class="burA6Bx">@ViewBag.burdurScada.burA6Bx Bx</span>
+                <span class="burA7seviye">%@ViewBag.burdurScada.burA7seviye</span>
+                <span class="burA7Bx">@ViewBag.burdurScada.burA7Bx Bx</span>
+                <span class="burKrstaltevsev1">%@ViewBag.burdurScada.burKrstaltevsev1</span>
+                <span class="burKrstaltevsev2">%@ViewBag.burdurScada.burKrstaltevsev2</span>
+                <span class="burKrstalrefsev1">%@ViewBag.burdurScada.burKrstalrefsev1</span>
+                <span class="burKrstalrefsev2">%@ViewBag.burdurScada.burKrstalrefsev2</span>
+                <span class="burKrstalrefsev3">%@ViewBag.burdurScada.burKrstalrefsev3</span>
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="carousel-item">
+                <h2 class="Fabrika">@Model.FabrikaAdi Şeker Fabrikası-Rafineri Otomasyon</h2>
+                <img class="d-block w-100" src="~/img/BURDUR_RAF2.PNG" alt="Second slide">
+                <span class="burB1seviye">%@ViewBag.burdurScada.burB1seviye</span>
+                <span class="burB1Bx">@ViewBag.burdurScada.burB1Bx Bx</span>
+                <span class="burB2seviye">%@ViewBag.burdurScada.burB2seviye</span>
+                <span class="burB2Bx">@ViewBag.burdurScada.burB2Bx Bx</span>
+                <span class="burB3seviye">%@ViewBag.burdurScada.burB3seviye</span>
+                <span class="burB3Bx">@ViewBag.burdurScada.burB3Bx Bx</span>
+                <span class="burB4seviye">%@ViewBag.burdurScada.burB4seviye</span>
+                <span class="burB4Bx">@ViewBag.burdurScada.burB4Bx Bx</span>
+
+                <span class="burC1seviye">%@ViewBag.burdurScada.burC1seviye</span>
+                <span class="burC1Bx">@ViewBag.burdurScada.burC1Bx Bx</span>
+                <span class="burC2seviye">%@ViewBag.burdurScada.burC2seviye</span>
+                <span class="burC2Bx">@ViewBag.burdurScada.burC2Bx Bx</span>
+                <span class="burC3seviye">%@ViewBag.burdurScada.burC3seviye</span>
+                <span class="burC3Bx">@ViewBag.burdurScada.burC3Bx Bx</span>
+                <span class="burC4seviye">%@ViewBag.burdurScada.burC4seviye</span>
+                <span class="burC4Bx">@ViewBag.burdurScada.burC4Bx Bx</span>
+                <span class="burC5seviye">%@ViewBag.burdurScada.burC5seviye</span>
+                <span class="burC5Bx">@ViewBag.burdurScada.burC5Bx Bx</span>
+
+                <span class="burOrtaTevsev">%@ViewBag.burdurScada.burOrtaTevsev</span>
+                <span class="burOrtaRefsev1">%@ViewBag.burdurScada.burOrtaRefsev1</span>
+                <span class="burOrtaRefsev2">%@ViewBag.burdurScada.burOrtaRefsev2</span>
+
+                <span class="burSonTevsev1">%@ViewBag.burdurScada.burSonTevsev1</span>
+                <span class="burSonTevsev2">%@ViewBag.burdurScada.burSonTevsev2</span>
+
+
+
+
+
+            </div>
+            <div class="carousel-item">
+                <h2 class="Fabrika">@Model.FabrikaAdi Şeker Fabrikası-Ham Fabrika Otomasyon</h2>
+                <img class="d-block w-100" src="~/img/BURDUR_HFB.PNG" alt="Second slide">
+                <span class="burDifuzyonKule1sev">%@ViewBag.burdurScada.burDifuzyonKule1sev</span>
+                <span class="burDifuzyonKule1Devir">@ViewBag.burdurScada.burDifuzyonKule1Devir d/dk</span>
+                <span class="burDifuzyonKule1Akim">@ViewBag.burdurScada.burDifuzyonKule1Akim A</span>
+                <span class="burDifuzyonKule2sev">%@ViewBag.burdurScada.burDifuzyonKule2sev</span>
+                <span class="burDifuzyonKule2Devir">@ViewBag.burdurScada.burDifuzyonKule2Devir d/dk</span>
+                <span class="burDifuzyonKule2Akim">@ViewBag.burdurScada.burDifuzyonKule2Akim A</span>
+                <span class="burKiyim1Tonaj">@ViewBag.burdurScada.burKiyim1Tonaj t/s</span>
+                <span class="burKiyim2Tonaj">@ViewBag.burdurScada.burKiyim2Tonaj t/s</span>
+                <span class="burHaslama1sev">%@ViewBag.burdurScada.burHaslama1sev</span>
+                <span class="burHaslama2sev">%@ViewBag.burdurScada.burHaslama2sev</span>
+
+            </div>
+
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+}
+
+@if (Model.Id == 2)
+{
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2 class="Fabrika">@Model.FabrikaAdi Şeker Fabrikası-Rafineri Otomasyon</h2>
+                <img class="d-block w-100" src="~/img/EREGRAF.PNG" alt="First slide">
+
+                <span class="Eregstandartdeposeviye">%@ViewBag.eregliscada.Eregstandartdeposeviye </span>
+                <span class="Eregortadeposeviye">%@ViewBag.eregliscada.Eregortadeposeviye</span>
+                <span class="Eregkristalyesildeposeviye">%@ViewBag.eregliscada.Eregkristalyesildeposeviye</span>
+                <span class="Eregkristalbeyazdeposeviye">%@ViewBag.eregliscada.Eregkristalbeyazdeposeviye</span>
+                <span class="EregA1seviye">%@ViewBag.eregliscada.EregA1seviye</span>
+                <span class="EregA1Bx">@ViewBag.eregliscada.EregA1Bx Bx</span>
+                <span class="EregA2seviye">%@ViewBag.eregliscada.EregA2seviye</span>
+                <span class="EregA2Bx">@ViewBag.eregliscada.EregA2Bx Bx</span>
+                <span class="EregA3seviye">%@ViewBag.eregliscada.EregA3seviye</span>
+                <span class="EregA3Bx">@ViewBag.eregliscada.EregA3Bx Bx</span>
+                <span class="EregA4seviye">%@ViewBag.eregliscada.EregA4seviye</span>
+                <span class="EregA4Bx">@ViewBag.eregliscada.EregA4Bx Bx</span>
+                <span class="EregA5seviye">%@ViewBag.eregliscada.EregA5seviye</span>
+                <span class="EregA5Bx">@ViewBag.eregliscada.EregA5Bx Bx</span>
+                <span class="EregA6seviye">%@ViewBag.eregliscada.EregA6seviye</span>
+                <span class="EregA6Bx">@ViewBag.eregliscada.EregA6Bx Bx</span>
+                <span class="EregA7seviye">%@ViewBag.eregliscada.EregA7seviye</span>
+                <span class="EregA7Bx">@ViewBag.eregliscada.EregA7Bx Bx</span>
+                <span class="EregA8seviye">%@ViewBag.eregliscada.EregA8seviye</span>
+                <span class="EregA8Bx">@ViewBag.eregliscada.EregA8Bx Bx</span>
+                <span class="EregA9seviye">%@ViewBag.eregliscada.EregA9seviye</span>
+                <span class="EregA9Bx">@ViewBag.eregliscada.EregA9Bx Bx</span>
+                <span class="EregAB10seviye">%@ViewBag.eregliscada.EregAB10seviye</span>
+                <span class="EregAB10Bx">@ViewBag.eregliscada.EregAB10Bx Bx</span>
+                <span class="EregB1seviye">%@ViewBag.eregliscada.EregB1seviye</span>
+                <span class="EregB1Bx">@ViewBag.eregliscada.EregB1Bx Bx</span>
+                <span class="EregB2seviye">%@ViewBag.eregliscada.EregB2seviye</span>
+                <span class="EregB2Bx">@ViewBag.eregliscada.EregB2Bx Bx</span>
+                <span class="EregB3seviye">%@ViewBag.eregliscada.EregB3seviye</span>
+                <span class="EregB3Bx">@ViewBag.eregliscada.EregB3Bx Bx</span>
+                <span class="EregB4seviye">%@ViewBag.eregliscada.EregB4seviye</span>
+                <span class="EregB4Bx">@ViewBag.eregliscada.EregB4Bx Bx</span>
+                <span class="EregB5seviye">%@ViewBag.eregliscada.EregB5seviye</span>
+                <span class="EregB5Bx">@ViewBag.eregliscada.EregB5Bx Bx</span>
+                <span class="EregC1seviye">%@ViewBag.eregliscada.EregC1seviye</span>
+                <span class="EregC1Bx">@ViewBag.eregliscada.EregC1Bx Bx</span>
+                <span class="EregC2seviye">%@ViewBag.eregliscada.EregC2seviye</span>
+                <span class="EregC2Bx">@ViewBag.eregliscada.EregC2Bx Bx</span>
+                <span class="EregC3seviye">%@ViewBag.eregliscada.EregC3seviye</span>
+                <span class="EregC3Bx">@ViewBag.eregliscada.EregC3Bx Bx</span>
+                <span class="EregC4seviye">%@ViewBag.eregliscada.EregC4seviye</span>
+                <span class="EregC4Bx">@ViewBag.eregliscada.EregC4Bx Bx</span>
+                <span class="EregC5seviye">%@ViewBag.eregliscada.EregC5seviye</span>
+                <span class="EregC5Bx">@ViewBag.eregliscada.EregC5Bx Bx</span>
+                <span class="EregC6seviye">%@ViewBag.eregliscada.EregC6seviye</span>
+                <span class="EregC6Bx">@ViewBag.eregliscada.EregC6Bx Bx</span>
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="carousel-item">
+                <h2 class="Fabrika">@Model.FabrikaAdi Şeker Fabrikası-Ham Fabrika Otomasyon</h2>
+                <img class="d-block w-100" src="~/img/EREGHFB.PNG" alt="Second slide">
+                <span class="EregDifuzyonKule1sev">%@ViewBag.eregliscada.EregDifuzyonKule1sev</span>
+                <span class="EregDifuzyonKule1Devir">@ViewBag.eregliscada.EregDifuzyonKule1Devir d/dk</span>
+                <span class="EregDifuzyonKule1Akim">@ViewBag.eregliscada.EregDifuzyonKule1Akim A</span>
+                <span class="EregDifuzyonKule2sev">%@ViewBag.eregliscada.EregDifuzyonKule2sev</span>
+                <span class="EregDifuzyonKule2Devir">@ViewBag.eregliscada.EregDifuzyonKule2Devir d/dk</span>
+                <span class="EregDifuzyonKule2Akim">@ViewBag.eregliscada.EregDifuzyonKule2Akim A</span>
+                <span class="EregKiyim1Tonaj">@ViewBag.eregliscada.EregKiyim1Tonaj t/s</span>
+                <span class="EregKiyim2Tonaj">@ViewBag.eregliscada.EregKiyim2Tonaj t/s</span>
+                <span class="EregHaslama1sev">%@ViewBag.eregliscada.EregHaslama1sev</span>
+                <span class="EregHaslama2sev">%@ViewBag.eregliscada.EregHaslama2sev</span>
+
+            </div>
+
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+}
+
+<script src="~/Content/kendo/js/jquery.min.js"></script>

@@ -272,6 +272,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\BurdurScada.css" />
     <Content Include="Content\dist\css\adminlte.css" />
     <Content Include="Content\dist\css\adminlte.min.css" />
     <Content Include="Content\dist\css\alt\adminlte.components.css" />
@@ -324,6 +325,7 @@
     <Content Include="Content\dist\js\pages\dashboard.js" />
     <Content Include="Content\dist\js\pages\dashboard2.js" />
     <Content Include="Content\dist\js\pages\dashboard3.js" />
+    <Content Include="Content\EregScada.css" />
     <Content Include="Content\kendo\css\kendo.common-bootstrap.min.css" />
     <Content Include="Content\kendo\css\kendo.common.min.css" />
     <Content Include="Content\kendo\css\kendo.default-v2.min.css" />
@@ -336,6 +338,7 @@
     <Content Include="Content\kendo\js\kendo.all.min.js" />
     <Content Include="Content\kendo\js\messages\kendo.messages.tr-TR.min.js" />
     <Content Include="Content\kendo\js\Turkce.min.js" />
+    <Content Include="Content\MalScada.css" />
     <Content Include="Content\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
     <Content Include="Content\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="Content\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
@@ -1958,12 +1961,14 @@
     <Content Include="Content\plugins\toastr\toastr.css" />
     <Content Include="Content\plugins\toastr\toastr.min.css" />
     <Content Include="Content\plugins\toastr\toastr.min.js" />
+    <Content Include="Content\SusurlukScada.css" />
+    <Content Include="Content\YozScada.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="img\BURDUR_HFB.PNG" />
-    <Content Include="img\BURDUR_RAF1.PNG" />
+    <Content Include="img\BURDUR_RAF1.png" />
     <Content Include="img\BURDUR_RAF2.PNG" />
     <Content Include="img\Emaf.png" />
     <Content Include="img\EMAFLOG.png" />
@@ -2091,7 +2096,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -2111,7 +2118,8 @@
     <Content Include="Views\AdminRole\Create.cshtml" />
     <Content Include="Views\AdminRole\Edit.cshtml" />
     <Content Include="Views\AdminRole\Index.cshtml" />
-    <Content Include="Views\Tablo\Detail.cshtml" />
+    <Content Include="Views\Tablo\Details.cshtml" />
+    <Content Include="Views\Tablo\Details1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -12,6 +12,8 @@ namespace TurkSeker.Dal
         }   
         public virtual DbSet<genelmd> GenelMd { get; set; }
         public virtual DbSet<Fabrika> Fabrikas { get; set; }
+        public virtual DbSet<burdurscada> Burdurscadas { get; set; }
+        public virtual DbSet<eregliscada> Eregliscadas { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

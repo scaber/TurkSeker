@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Db\Base.cs" />
+    <Compile Include="Db\burdurscada.cs" />
+    <Compile Include="Db\eregliscada.cs" />
     <Compile Include="Db\Fabrika.cs" />
     <Compile Include="Db\genelmd.cs" />
     <Compile Include="Db\Kullanici.cs" />
@@ -114,6 +116,14 @@
     <Compile Include="Migrations\202012292022481_suleymaneditgenelmd.designer.cs">
       <DependentUpon>202012292022481_suleymaneditgenelmd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101122004452_burdurscada.cs" />
+    <Compile Include="Migrations\202101122004452_burdurscada.designer.cs">
+      <DependentUpon>202101122004452_burdurscada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101132035124_addEregliScadaTable.cs" />
+    <Compile Include="Migrations\202101132035124_addEregliScadaTable.designer.cs">
+      <DependentUpon>202101132035124_addEregliScadaTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelTurkSeker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -161,6 +171,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012292022481_suleymaneditgenelmd.resx">
       <DependentUpon>202012292022481_suleymaneditgenelmd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101122004452_burdurscada.resx">
+      <DependentUpon>202101122004452_burdurscada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101132035124_addEregliScadaTable.resx">
+      <DependentUpon>202101132035124_addEregliScadaTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

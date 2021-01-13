@@ -46,6 +46,9 @@
     <Compile Include="Parameters\PmRegister.cs" />
     <Compile Include="Parameters\RequiredAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\RsBurdurScada.cs" />
+    <Compile Include="Results\RsEregliScada.cs" />
+    <Compile Include="Results\RsFabrika.cs" />
     <Compile Include="Results\RsGenelMd.cs" />
   </ItemGroup>
   <ItemGroup>

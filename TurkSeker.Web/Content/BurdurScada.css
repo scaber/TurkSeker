@@ -1,0 +1,3363 @@
+﻿@media (min-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+    .burstandartdeposeviye {
+        display: none;
+    }
+
+    .burortasurupdeposeviye {
+        display: none;
+    }
+
+    .burkristalyesildeposeviye {
+        display: none;
+    }
+
+
+
+    .burkristalbeyazdeposeviye {
+        display: none;
+    }
+
+
+
+    .burA1seviye {
+        display: none;
+    }
+
+    .burA1Bx {
+        display: none;
+    }
+
+    .burA2seviye {
+        display: none;
+    }
+
+    .burA2Bx {
+        display: none;
+    }
+
+    .burA3seviye {
+        display: none;
+    }
+
+    .burA3Bx {
+        display: none;
+    }
+
+    .burA4seviye {
+        display: none;
+    }
+
+    .burA4Bx {
+        display: none;
+    }
+
+    .burA5seviye {
+        display: none;
+    }
+
+    .burA5Bx {
+        display: none;
+    }
+
+    .burA6seviye {
+        display: none;
+    }
+
+    .burA6Bx {
+        display: none;
+    }
+
+    .burA7seviye {
+        display: none;
+    }
+
+    .burA7Bx {
+        display: none;
+    }
+
+    .burKrstaltevsev1 {
+        display: none;
+    }
+
+    .burKrstaltevsev2 {
+        display: none;
+    }
+
+
+
+    .burKrstalrefsev1 {
+        display: none;
+    }
+
+    .burKrstalrefsev2 {
+        display: none;
+    }
+
+    .burKrstalrefsev3 {
+        display: none;
+    }
+
+    .burB1seviye {
+        display: none;
+    }
+
+    .burB1Bx {
+        display: none;
+    }
+
+    .burB2seviye {
+        display: none;
+    }
+
+    .burB2Bx {
+        display: none;
+    }
+
+    .burB3seviye {
+        display: none;
+    }
+
+    .burB3Bx {
+        display: none;
+    }
+
+    .burB4seviye {
+        display: none;
+    }
+
+    .burB4Bx {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .burC1seviye {
+        display: none;
+    }
+
+    .burC1Bx {
+        display: none;
+    }
+
+    .burC2seviye {
+        display: none;
+    }
+
+    .burC2Bx {
+        display: none;
+    }
+
+    .burC3seviye {
+        display: none;
+    }
+
+    .burC3Bx {
+        display: none;
+    }
+
+    .burC4seviye {
+        display: none;
+    }
+
+    .burC4Bx {
+        display: none;
+    }
+
+    .burC5seviye {
+        display: none;
+    }
+
+    .burC5Bx {
+        display: none;
+    }
+
+
+
+
+    .burOrtaTevsev {
+        display: none;
+    }
+
+    .burOrtaRefsev1 {
+        display: none;
+    }
+
+    .burOrtaRefsev2 {
+        display: none;
+    }
+
+
+
+    .burSonTevsev1 {
+        display: none;
+    }
+
+    .burSonTevsev2 {
+        display: none;
+    }
+
+
+    .burDifuzyonKule1sev {
+        display: none;
+    }
+
+    .burDifuzyonKule1ph {
+        display: none;
+    }
+
+    .burDifuzyonKule1Devir {
+        display: none;
+    }
+
+    .burDifuzyonKule1Akim {
+        display: none;
+    }
+
+    .burDifuzyonKule2sev {
+        display: none;
+    }
+
+    .burDifuzyonKule2ph {
+        display: none;
+    }
+
+    .burDifuzyonKule2Devir {
+        display: none;
+    }
+
+    .burDifuzyonKule2Akim {
+        display: none;
+    }
+
+    .burKiyim1Tonaj {
+        display: none;
+    }
+
+    .burKiyim2Tonaj {
+        display: none;
+    }
+
+    .burHaslama1sev {
+        display: none;
+    }
+
+    .burHaslama2sev {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .burstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burortasurupdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 58%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .burA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 27%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 27%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 34.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 34.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 42%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 42%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 49.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 49.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 64.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 64.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 71.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 71.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+
+
+    .burKrstaltevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 38.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .burKrstaltevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 22%;
+        left: 69%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burKrstalrefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 39.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burKrstalrefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 55.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burKrstalrefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 70.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    .burB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 23.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 23.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+
+
+    .burC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 62%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 62%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 69.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 69.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 77%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 77%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 84.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 65%;
+        left: 84.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .burOrtaTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41%;
+        left: 16.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .burSonTevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41%;
+        left: 63%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burSonTevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .burOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 24%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 59%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 59%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 75%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 42%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .burHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+@media (min-width: 1200px) {
+
+
+    .burstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burortasurupdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 58%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 73%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 26%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 26%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 33.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 33.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 41%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 48.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 48.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 56%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 63.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 63.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 48%;
+        left: 70.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43%;
+        left: 70.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burKrstaltevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 37%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burKrstaltevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 68%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burKrstalrefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burKrstalrefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 55%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burKrstalrefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+
+    .burB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 7.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 7.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 23%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 23%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 30.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 30.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+    .burC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 54%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 54%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 61.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 61.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 69%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 69%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 76.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 76.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 68%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+    .burOrtaTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41%;
+        left: 16%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burSonTevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41%;
+        left: 62%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burSonTevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41%;
+        left: 81.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+    .burOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 14.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 23%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 84%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 79%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 84%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 79%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41.5%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 41.5%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 7%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .burHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 7%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1600px) {
+ 
+
+    .burstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 76%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burortasurupdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 76%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 76%;
+        left: 58%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 76%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 27%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 27%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 34.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 34.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 42%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 42%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 49.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 49.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 64.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 64.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 50%;
+        left: 71.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45%;
+        left: 71.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burKrstaltevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 25%;
+        left: 37.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burKrstaltevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 25%;
+        left: 69%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burKrstalrefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 39.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burKrstalrefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 55.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burKrstalrefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 9%;
+        left: 70.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+
+    .burB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 23.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 23.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    
+
+
+
+    
+
+    .burC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 62%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 62%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 69.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 69.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 77%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 77%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 70%;
+        left: 84.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 66%;
+        left: 84.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    
+
+    .burOrtaTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43.5%;
+        left: 16.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burSonTevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43.5%;
+        left: 63%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burSonTevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 43.5%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    
+
+    .burOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 25%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 25%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 67%;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 67%;
+        left: 75.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 61%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 44%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 8%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+
+    
+}
+
+
+@media (min-width: 2000px) {
+ 
+
+    .burstandartdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 7%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burortasurupdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burkristalyesildeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 58%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burkristalbeyazdeposeviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 78%;
+        left: 84%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+
+    .burA1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 52%;
+        left: 27%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 27%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 52%;
+        left: 34.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 34.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 52%;
+        left: 42%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 42%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 52%;
+        left: 49.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 49.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 52%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 57%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA6seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 52%;
+        left: 64.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA6Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 64.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA7seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 52%;
+        left: 71.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burA7Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 47%;
+        left: 71.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+
+    .burKrstaltevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 26%;
+        left: 38.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+
+    .burKrstaltevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 26%;
+        left: 69%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burKrstalrefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 39.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burKrstalrefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 55.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burKrstalrefsev3 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 11%;
+        left: 71%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+    .burB1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burB1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burB2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burB2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burB3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 23.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burB3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 23.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burB4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burB4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 31%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+   
+
+
+    
+
+    .burC1seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC1Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 54.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC2seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 62%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC2Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 62%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC3seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 69.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC3Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 69.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC4seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 77%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC4Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 77%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC5seviye {
+        position: absolute;
+        font-weight: bold;
+        bottom: 74%;
+        left: 84.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burC5Bx {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 84.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+   
+
+    .burOrtaTevsev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45.5%;
+        left: 17.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burSonTevsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45.5%;
+        left: 63%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burSonTevsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 45.5%;
+        left: 82.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+  
+
+    .burOrtaRefsev1 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 27%;
+        left: 15.5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burOrtaRefsev2 {
+        position: absolute;
+        font-weight: bold;
+        bottom: 27%;
+        left: 32%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    .burDifuzyonKule1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burDifuzyonKule1ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 17%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burDifuzyonKule1Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burDifuzyonKule1Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burDifuzyonKule2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 69%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burDifuzyonKule2ph {
+        position: absolute;
+        font-weight: bold;
+        bottom: 64%;
+        left: 75%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burDifuzyonKule2Devir {
+        position: absolute;
+        font-weight: bold;
+        bottom: 85%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burDifuzyonKule2Akim {
+        position: absolute;
+        font-weight: bold;
+        bottom: 80%;
+        left: 82%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burKiyim1Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 38%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burKiyim2Tonaj {
+        position: absolute;
+        font-weight: bold;
+        bottom: 46%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burHaslama1sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 39%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .burHaslama2sev {
+        position: absolute;
+        font-weight: bold;
+        bottom: 10%;
+        left: 59%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+
+
+    
+}
